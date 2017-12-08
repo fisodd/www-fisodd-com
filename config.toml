@@ -1,6 +1,7 @@
 languageCode = "en-us"
 title = "Fisodd"
-baseurl = "http://www.fisodd.com/"
+#baseurl = "http://www.fisodd.com/"
+baseurl = "http://www-fisodd-com.netlify.com/"
 theme = "hugo-b-side"
 
 sectionPagesMenu = "main"
