@@ -2,7 +2,6 @@
 date = "2017-12-07T11:37:45-07:00"
 title = "Tufte Example"
 description = "An adaptation of the Tufte CSS sample page implemented in reStructuredText."
-
 type = "post"
 
 +++
@@ -13,7 +12,7 @@ type = "post"
 Tufte Example
 =============
 
-.. sidebar:: Tufte CSS
+.. sidebar:: Quoting directly from "Tufte CSS"
 
    Tufte CSS provides tools to style web articles using the ideas demonstrated by Edward Tufte’s books and handouts. Tufte’s style is known for its simplicity, extensive use of sidenotes, tight integration of graphics with text, and carefully chosen typography.
    
@@ -48,25 +47,39 @@ Tufte Example
 
    -- From https://edwardtufte.github.io/tufte-css/
 
-This page is an adaptation of the Tufte CSS example page,
-a sample page used to demonstrate the features
+The page you are reading is an adaptation of the Tufte CSS example page,
+which itself is a sample page used to demonstrate the features
 of a set of CSS that enabled certain web materials to follow
 ideas expressed in Edward Tufte's work.
 
-This page is offered as an example of how the behavior has evolved
-and how this kind of material can be authored in
-`reStructuredText <http://docutils.sourceforge.net/rst.html>`_.
+This page here is offered as an example of
+how this kind of material can be authored in
+`reStructuredText <http://docutils.sourceforge.net/rst.html>`_
+through the use of
+`the B-side theme <https://github.com/fisodd/hugo-b-side/>`__
+in Hugo,
+and how the behavior has evolved to work
+within the constraints of Hugo and this B-side theme.
+The content and the flow of the material on this page
+follow directly from the original Tufte CSS page,
+adjustments were made as necessary
+to fit the specifics of the B-side implementation.
 
-This B-side Hugo theme does not attempt to adhere strictly to Tufte's work,
+This B-side Hugo theme
+does not attempt to adhere strictly to Tufte's work,
 but has been influenced by his writings.
 The development of the B-side theme has also been influenced
 by other projects which have spun out of the Tufte CSS work, 
 with the most obvious alternative contributions coming from
 `Envisioned CSS <http://nogginfuel.com/envisioned-css/>`_.
 
-Those interested in a clean CSS implementation following Tufte's designs
-are encouraged explore the links in the original Tufte CSS material
+Those interested in a pure CSS implementation following Tufte's designs
+are encouraged to consider the excellent Tufte CSS project.
+You can start by exploring the links in the original Tufte CSS material
 that is quoted in the sidebar to the right of this text.
+Those interested in similar behavior
+with a cleaner "modern" aesethic
+should review the Envisioned CSS project referenced above.
 
 
 Getting Started
@@ -90,10 +103,10 @@ The B-side CSS is based on the HTML generated
 by the default Docutils processing of reStructredText markup.
 
 For approximating this Tufte look,
-use ``h1`` for the document title,
-``h2`` for section headings,
-and ``h3`` for low-level headings.
-More specific headings are supported,
+use the top-level heading for the document title,
+and the second-level headings for section headings,
+with the third-level headings for low-level headings.
+All of the HTML recognized headings (H1 through H6) are supported,
 but are not in keeping with Tufte guidance.
 If you feel the urge to reach for a heading of level 4 or greater,
 consider redesigning your document:
@@ -121,19 +134,15 @@ See page 20 of
 `The Visual Display of Quantitative Information <https://www.edwardtufte.com/tufte/books_vdqi>`_
 for an example in print.
 
-.. `Beautiful Evidence`: xx
-
-.. [1] Beautiful Evidence, https://www.edwardtufte.com/tufte/books_be
-
 .. role:: newthought
 
-:newthought:`In his later books`\ [1]_
-Tufte starts each section with a bit of vertical space,
+:newthought:`In his later books` Tufte
+starts each section with a bit of vertical space,
 a non-indented paragraph,
 and the first few words of the sentence set in small caps.
 For this we use a reStructuredText ``role`` with the class ``newthought``,
 as demonstrated at the beginning of this paragraph.
-Unfortunately, the support for this feature in B-side is
+Admittedly, the support for this feature in B-side is
 simplistic -- simple markup does not offer a proper
 implementation of small caps, so here we are making do
 with a hack with upper case lettering (hence we lack
@@ -144,8 +153,8 @@ of the capital letters in the new thought phrase).
 
    .. role:: newthought
    
-   :newthought:`In his later books`
-   Tufte starts each section with a bit of vertical space,
+   :newthought:`In his later books` Tufte
+   starts each section with a bit of vertical space,
 
 Whichever approach you choose for the start of your sections,
 be consistent.
@@ -165,9 +174,9 @@ We stick to the greyscale for text,
 reserving color for the content's specific,
 careful use in figures and images.
 
-.. [2] See Tufte’s comment in the `Tufte book fonts thread <http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000Vt>`_.
+.. [1] See Tufte’s comment in the `Tufte book fonts thread <http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000Vt>`_.
 
-In print, Tufte has used the proprietary Monotype Bembo [2]_ font.
+In print, Tufte has used the proprietary Monotype Bembo\ [1]_ font.
 Here we break from the Tufte guidance,
 and follow closer to the approach championed by
 `Envisioned CSS <http://nogginfuel.com/envisioned-css/>`_.
@@ -241,10 +250,12 @@ Epigraphs
    
    --- Henri Matisse, Henri Matisse Dessins: thèmes et variations (Paris, 1943), 37
 
+.. [#] `Beautiful Evidence <http://www.edwardtufte.com/tufte/books_be>`__
+
 If you’d like to introduce your page or a section of your page
 with some quotes, use epigraphs.
 Modeled after chapter epigraphs in Tufte’s books
-(particularly *Beautiful Evidence*),
+(particularly *Beautiful Evidence* [#]_),
 these are ``blockquote`` elements with a bit of specialized styling.
 Quoted text is italicized.
 The source goes in a ``attribute`` element inside the ``blockquote``.
@@ -266,8 +277,8 @@ Sidenotes are like footnotes,
 except they don’t force the reader
 to jump their eye to the bottom of the page,
 but instead display off to the side in the margin.
-Perhaps you have noticed their use in this document already.
-You are very astute.
+The B-side theme implements both notes, footnotes and sidenotes,
+with the same place-in-the-margin behavior.
 
 In reStructuredText, notes (whether footnotes or sidenotes)
 can be where ever the author wants in document.  To use as
@@ -335,8 +346,10 @@ In Tufte CSS, by using raw HTML one has character-level control
 over the placement of notes
 (a note, whether marginnote or footnote,
 can be tied to any specific word in the running text).
-reStructuredText, like most plaintext markup systems,
-works more at the block level.
+Like most plaintext markup systems
+that favor readability of the raw material,
+reStructuredText works mostly with blocks of text
+as opposed to working character by character.
 Therefore, with B-side, notes can be implemented
 at the beginning\ [*]_ or at the end of a block\ [*]_,
 not in the middle of a block of text.
@@ -344,8 +357,25 @@ Notes will be placed in the margin
 starting at the same vertical position
 as the next paragraph
 in the text running in the main column.
+If desired, a footnote\ [*]_ can be implemented
+by placing one or more notes at the end of the markup text.
 
 .. [*] This note was defined below the paragraph.
+
+The careful reader may have noted
+that some of the notes in this article
+have been marked with numeric labels
+while others have been marked with symbols.
+reStructuredText actually implements three different sets of notes:
+numeric notes, symbolic notes, and citations.
+Each of these sets are tracked independently,
+which offers an author some flexibility in how the notes are used;
+for example, perhaps an author can use the symbolic notes
+for the sidenotes and use the numeric notes for footnotes.
+More information about the support for notes
+can be found in
+`the footnote section <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#footnotes>`__
+of [ReST]_.
 
 
 Figures
@@ -449,7 +479,7 @@ In markup:
 .. code:: ReST
 
    .. figure:: Minard.png
-      :alt: Figurative map of the successive losses of the French Army in the Russian campaign, 1812-1813
+      :alt: Figurative map of the successive losses ...
       :class: fullwidth
 
       Figurative map of the successive losses of the French Army ...
@@ -498,4 +528,13 @@ we would not have known even where to begin.
 Any problems with this material
 stem from failures in my implementation
 and not from any weaknesses in their inspirations.
+
+
+.. [*] This note behaves like a footnote
+   because the note itself was defined at the very end of the text.
+   The footnote label has a link that can be used
+   to return to the corresponding location within the text.
+
+.. [ReST] The reStructuredText reference,
+   <http://docutils.sourceforge.net/rst.html>.
 
