@@ -1,0 +1,15 @@
+<footer>
+  <p><hr class="docutils"></p>
+  <div class="align-center">
+    {{ partial "foot-license.html" . }}
+    {{ now.Format "2006" }}
+    <a href="{{ .Site.BaseURL }}" class="link-transition" title="Author">
+      {{ if isset .Site.Params "author" }}
+        {{ .Site.Params.author }}
+      {{ else }}
+	{{ .Site.Title }}
+      {{ end }}
+    </a>
+    {{ partial "foot-social.html" . }}
+  </div>
+</footer>

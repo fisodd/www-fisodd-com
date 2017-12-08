@@ -1,0 +1,3 @@
+[submodule "themes/hugo-b-side"]
+	path = themes/hugo-b-side
+	url = https://github.com/fisodd/hugo-b-side.git

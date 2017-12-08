@@ -1,0 +1,14 @@
+
+[[works]]
+   name = "Anscombes Quartet"
+   path = "/work/AnscombesQuartet/"
+   desc = "A short slide deck on simple shiny app based on Anscombe's Quartet, created to be a quick demo."
+   date = "2016-04-03"
+
+[[works]]
+   name = "Storm Events"
+   path = "/work/StormEvents/"
+   desc = "An executive summary of a NOAA dataset, written to be a small sample of RMarkdown."
+   date = "2016-03-01"
+
+

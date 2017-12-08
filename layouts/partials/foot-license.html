@@ -1,0 +1,52 @@
+{{ if isset .Site.Params "license" }}
+  {{ if eq .Site.Params.license "cc-by-4.0" }}
+    <a
+      class="link-transition" title="CC License"
+      href="https://creativecommons.org/licenses/by/4.0/"
+    ><img src="https://i.creativecommons.org/l/by/4.0/80x15.png"></a>
+  {{ end }}
+  {{ if eq .Site.Params.license "cc-by-nc-4.0" }}
+    <a
+      class="link-transition" title="CC License"
+      href="https://creativecommons.org/licenses/by-nc/4.0/"
+    ><img src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png"></a>
+  {{ end }}
+  {{ if eq .Site.Params.license "cc-by-nd-4.0" }}
+    <a
+      class="link-transition" title="CC License"
+      href="https://creativecommons.org/licenses/by-nd/4.0/"
+    ><img src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png"></a>
+  {{ end }}
+  {{ if eq .Site.Params.license "cc-by-nc-nd-4.0" }}
+    <a
+      class="link-transition" title="CC License"
+      href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    ><img src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"></a>
+  {{ end }}
+  {{ if eq .Site.Params.license "cc-by-sa-4.0" }}
+    <a
+      class="link-transition" title="CC License"
+      href="https://creativecommons.org/licenses/by-sa/4.0/"
+    ><img src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a>
+  {{ end }}
+  {{ if eq .Site.Params.license "cc-by-nc-sa-4.0" }}
+    <a
+      class="link-transition" title="CC License"
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    ><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a>
+  {{ end }}
+  {{ if eq .Site.Params.license "apache-2.0" }}
+    <a
+      class="link-transition" title="Apache License"
+      href="https://opensource.org/licenses/Apache-2.0"
+    >Apache 2.0 License</a>: &copy;
+  {{ end }}
+  {{ if eq .Site.Params.license "mit" }}
+    <a
+      class="link-transition" title="MIT License"
+      href="https://opensource.org/licenses/MIT"
+      >{{ partial "svg/mit-license.svg" (dict "size" "16px") }}</a>&copy;
+  {{ end }}
+{{ else }}
+&copy;
+{{ end }}
