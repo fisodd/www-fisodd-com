@@ -1,7 +1,6 @@
 languageCode = "en-us"
 title = "Fisodd"
-#baseurl = "http://www.fisodd.com/"
-baseurl = "http://www-fisodd-com.netlify.com/"
+baseurl = "http://www.fisodd.com/"
 theme = "hugo-b-side"
 
 sectionPagesMenu = "main"
@@ -11,5 +10,4 @@ sectionPagesMenu = "main"
   email = "mailto:AlexanderCarlton@fisodd.com"
   github = "https://www.github.com/fisodd"
   linkedin = "https://www.linkedin.com/in/AlexanderCarlton"
-
   license = "cc-by-sa-4.0"
