@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Fisodd"
-baseurl = "http://www.fisodd.com/"
+baseurl = "https://www.fisodd.com/"
 theme = "hugo-b-side"
 
 sectionPagesMenu = "main"
