@@ -47,13 +47,14 @@ Tufte Example
 
    -- From https://edwardtufte.github.io/tufte-css/
 
-The page you are reading is an adaptation of the Tufte CSS example page,
+The page you are reading is an adaptation of the
+`Tufte CSS <https://edwardtufte.github.io/tufte-css/>`__ example page,
 which itself is a sample page used to demonstrate the features
 of a set of CSS that enabled certain web materials to follow
 ideas expressed in Edward Tufte's work.
 
 This page here is offered as an example of
-how this kind of material can be authored in
+how this kind of material can be written in
 `reStructuredText <http://docutils.sourceforge.net/rst.html>`_
 through the use of
 `the B-side theme <https://github.com/fisodd/hugo-b-side/>`__
@@ -100,7 +101,7 @@ Sections and Headings
 Organize your document
 like any other reStructuredText document.
 The B-side CSS is based on the HTML generated
-by the default Docutils processing of reStructredText markup.
+by the default Docutils processing of reStructuredText markup.
 
 For approximating this Tufte look,
 use the top-level heading for the document title,
@@ -229,7 +230,7 @@ and is so thick and distracting,
 the underline effect is instead achieved using CSS trickery
 involving background gradients
 instead of standard ``text-decoration``.
-Credit goes to Adam Schwartz for that technique --
+Credit goes to Adam Schwartz for the technique --
 we are impressed, and grateful.
 
 
@@ -238,17 +239,24 @@ Epigraphs
 
 .. epigraph::
 
-   The English language . . . becomes ugly and inaccurate because our thoughts are foolish, but the slovenliness of our language makes it easier for us to have foolish thoughts.
+   The English language . . . becomes ugly and inaccurate
+   because our thoughts are foolish,
+   but the slovenliness of our language
+   makes it easier for us to have foolish thoughts.
 
    --- George Orwell, “Politics and the English Language”
 
-   For a successful technology, reality must take precedence over public relations, for Nature cannot be fooled.
+   For a successful technology,
+   reality must take precedence over public relations,
+   for Nature cannot be fooled.
 
    --- Richard P. Feynman, “What Do You Care What Other People Think?”
 
    I do not paint things, I paint only the differences between things.
    
-   --- Henri Matisse, Henri Matisse Dessins: thèmes et variations (Paris, 1943), 37
+   --- Henri Matisse,
+   :title:`Henri Matisse Dessins: thèmes et variations`
+   (Paris, 1943), 37
 
 .. [#] `Beautiful Evidence <http://www.edwardtufte.com/tufte/books_be>`__
 

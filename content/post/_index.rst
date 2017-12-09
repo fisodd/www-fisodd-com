@@ -1,7 +1,8 @@
 +++
 date = "2017-12-07T21:49:25-08:00"
 title = "Posts"
-weight = 11
+weight = 9
+type = "wide"
 
 +++
 
