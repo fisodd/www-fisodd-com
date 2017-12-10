@@ -1,8 +1,0 @@
-{{ define "main" }}
-<div>
-  {{ .Content }}
-</div>
-  {{ range .Data.Pages }}
-    {{ .Render "summary" }}
-  {{ end }}
-{{ end }}
