@@ -6,6 +6,16 @@ description = "An introductory sample of how reStructuredText works."
 +++
 
 
+A ReStructuredText Primer
+=========================
+
+:Author: Richard Jones
+:Version: $Revision: 5801 $
+:Copyright: This document has been placed in the public domain.
+
+.. contents::
+
+
 This is a derived text.
 If the links don't work, please refer to the `master
 quick reference`_ document.
@@ -50,7 +60,6 @@ Results in:
      text, typically used for quoting other text.
 
   This is another one.
-
 
 
 Text styles
@@ -169,7 +178,7 @@ after a blank line.
 
     - another item
 
-**definition** lists 
+**definition** lists
 
   Unlike the other two, the definition lists consist of a term, and
   the definition of that term.  The format of a definition list is::
@@ -239,7 +248,6 @@ Results in:
 
 Sections
 --------
-
 
 To break longer text up into sections, you use **section headers**.
 These are a single line of text (one or more words) with adornment: an
@@ -366,7 +374,7 @@ What Next?
 ----------
 
 This primer introduces the most common features of reStructuredText,
-but there are a lot more to explore.  The Quick reStructuredText
+but there are a lot more to explore.  The `Quick reStructuredText`_
 user reference is a good place to go next.  For complete details, the
 `reStructuredText Markup Specification`_ is the place to go.
 
@@ -374,7 +382,9 @@ Users who have questions or need assistance with Docutils or
 reStructuredText should post a message to the Docutils-users_ mailing
 list.
 
+.. _Quick reStructuredText:
+   http://docutils.sourceforge.net/docs/user/rst/quickref.html
 .. _reStructuredText Markup Specification:
-   http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html.
+   http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 .. _Docutils-users: ../mailing-lists.html#docutils-users
 .. _Docutils project web site: http://docutils.sourceforge.net/
