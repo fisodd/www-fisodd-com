@@ -6,10 +6,11 @@ title = "Fisodd"
 
 Welcome to `Fisodd </post/f-is-odd/>`__.
 
-Much of the material here
-is to support
+Much of the material here is to support
 `the author's repositories at Github <https://github.com/fisodd>`__.
-The rest of the content comes out of
-an ongoing exploration of the rapidly expanding universe
-that is called Data Science.
+Most of the rest comes out of an ongoing exploration
+of the rapidly expanding universe that is called Data Science.
+
+The most recent updates are listed below.
+All content can be reached via the menu at top of the page.
 
