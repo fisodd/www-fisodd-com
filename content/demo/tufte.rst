@@ -8,9 +8,9 @@ type = "post"
 
 
 
-=============
+#############
 Tufte Example
-=============
+#############
 
 .. sidebar:: Quoting directly from "Tufte CSS"
 
@@ -84,19 +84,19 @@ should review the Envisioned CSS project referenced above.
 
 
 Getting Started
----------------
+***************
 
 B-side requires no special setup
-to be used in this main-and-margin column format -- 
+to be used in this main-and-margin column format |--| 
 all that is required is some care with using reStructuredText directives
 and the CSS in B-side will format the resulting elements accordingly.
 
 
 Fundamentals
-------------
+************
 
 Sections and Headings
-.....................
+=====================
 
 Organize your document
 like any other reStructuredText document.
@@ -141,12 +141,11 @@ for an example in print.
 starts each section with a bit of vertical space,
 a non-indented paragraph,
 and the first few words of the sentence set in small caps.
-For this we use a reStructuredText ``role`` with the class ``newthought``,
+For this we use a reStructuredText role with the class ``newthought``,
 as demonstrated at the beginning of this paragraph.
 Admittedly, the support for this feature in B-side is
-simplistic -- simple markup does not offer a proper
-implementation of small caps, so here we are making do
-with the ``font-variant: small-caps;`` CSS property.
+simplistic |--| here we are just specifying ``small-caps``
+as the font-variant CSS property.
 
 .. code:: ReST
 
@@ -162,7 +161,7 @@ Pick one approach and stick to it.
 
 
 Text
-....
+====
 
 Although paper handouts obviously have a pure white background,
 the web is better served by the use of slightly off-white and off-black colors.
@@ -228,12 +227,12 @@ and is so thick and distracting,
 the underline effect is instead achieved using CSS trickery
 involving background gradients
 instead of standard ``text-decoration``.
-Credit goes to Adam Schwartz for the technique --
+Credit goes to Adam Schwartz for the technique |--|
 we are impressed, and grateful.
 
 
 Epigraphs
----------
+*********
 
 .. epigraph::
 
@@ -273,7 +272,7 @@ fit together with the use of a wrapper class.
 
 
 Sidenotes: Footnotes and Marginal Notes
----------------------------------------
+***************************************
 
 .. [*] This is a sidenote.
 
@@ -340,7 +339,7 @@ An example of how to mark up a margin note by use of a sidebar:
 
 Note: no plaintext markup solution is going to be able to manage
 all of the careful details that make books like those of Edward Tufte
-such a pleasure to read -- much of that elegance comes from taking
+such a pleasure to read |--| much of that elegance comes from taking
 great care to get the details right, and plaintext markup systems
 favor simplicity more than fine-grain details.
 
@@ -385,7 +384,7 @@ of [ReST]_.
 
 
 Figures
--------
+*******
 
 Tufte emphasizes tight integration of graphics with text.
 Data, graphs, and figures are kept with the text that discusses them.
@@ -492,7 +491,7 @@ In markup:
   
 
 Code
-----
+****
 
 Technical jargon, programming language terms, and code samples
 are denoted with the ``code`` directive,
@@ -526,7 +525,7 @@ for a fixed-width font consistent with the base font.
 
 
 Epilogue
---------
+********
 
 Many thanks go to Edward Tufte for leading the way with his work.
 And without the fine work of Dave Liepmann and his Tufte CSS project
@@ -543,4 +542,6 @@ and not from any weaknesses in their inspirations.
 
 .. [ReST] The reStructuredText reference,
    <http://docutils.sourceforge.net/rst.html>.
+
+.. |--| unicode:: U+2013   .. en dash
 

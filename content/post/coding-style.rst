@@ -8,9 +8,9 @@ tags = [ "coding", "style" ]
 
 +++
 
-====================================
+####################################
 Some (More) Thoughts on Coding Style
-====================================
+####################################
 
 .. [*] `Strategic Scala Style: Conciseness & Names
    <http://www.lihaoyi.com/post/StrategicScalaStyleConcisenessNames.html>`_.
@@ -31,19 +31,19 @@ for projects that I lead.
 
 
 Essential Elements
-==================
+******************
 
 There are a couple of points of style that are essential;
 that is, they are both necessary and ubiquitous to all coding.
 
 
 Code must be written to be readable
------------------------------------
+===================================
 
 .. [*] Note: 'humans' is plural;
    the person who reads the code many not recall that much
-   about the person who wrote that code -- sometimes
-   even within single-author projects...
+   about the person who wrote that code |--| sometimes
+   even within single-author projects |...|
 
 Any code that lives to see the end of the day,
 will live far longer than originally imagined.
@@ -66,7 +66,7 @@ when tasks are made more difficult than necessary.
    `obfuscate code
    <https://en.wikipedia.org/wiki/International_Obfuscated_C_Code_Contest#Examples>`_
    by ridiculous use of whitespace
-   and other ugly tricks of formatting and design...
+   and other ugly tricks of formatting and design |...|
 
 Make the code easy to read,
 and let the compilers do the work they were created to do.
@@ -76,15 +76,19 @@ it will be a lot easier for you to do the work you need to do.
 
 
 Understand and follow preexisting style
----------------------------------------
+=======================================
 
-   | When in Rome, live like the Romans do.
-   | When elsewhere, live as they live elsewhere.
+.. epigraph::
+
+   When in Rome, live as the Romans do.
+   When elsewhere, live as they live elsewhere.
+    
+   -- St. Ambrose
 
 Any time you are working with existing code,
 be mindful of whatever style exists within that code;
 you may not like it, you may want to work to improve it,
-but you need to honor *whatever* style is already there.
+but you need to honor the style that is already there.
 
 No matter how beautiful the poetry,
 it does no good to throw down a Shakespearean sonnet
@@ -92,7 +96,7 @@ in the middle of a logic test.
 
 
 Enhanced Elements
-=================
+*****************
 
 The remaining elements of coding style are still important to good code,
 but rather than being essential to any code,
@@ -100,7 +104,7 @@ these elements can enhance the quality of the resulting code.
 
 
 Whitespace is significant
--------------------------
+=========================
 
 
 .. sidebar:: Unbroken Code
@@ -135,7 +139,7 @@ even before they focus to read the content.
 
 
 Indentation is key
-------------------
+==================
 
 The whitespace at the beginning of the lines of code
 is just as important as any other whitespace,
@@ -155,7 +159,7 @@ when the executable does not behave as the source expects.
 
 
 Use parentheses with purpose
-----------------------------
+============================
 
 It is possible to just rely on the existing rules of associativity.
 However, this would be an example of writing for the compiler
@@ -173,8 +177,8 @@ as opposed to writing for the reader.
    (in ways that are surprising
    (to the reader)))))).
 
-Use parenthesis to establish the order of operations you designed --
-unless you really do intend to be careless about your calculations...
+Use parenthesis to establish the order of operations you designed |--|
+unless you really do intend to be careless about your calculations |...|
 Remember, language standards may evolve over time
 including order of operations whose ambiguities may be addressed,
 and it is rare that the application code is truly agnostic.
@@ -198,7 +202,7 @@ intent closing braces of code blocks.
 
 
 Pay attention to layout
------------------------
+=======================
 
 Pay attention to the tools the readers will use to view the code.
 Strive to make the key elements for whatever the readers focus on
@@ -206,16 +210,16 @@ are readily found on the same "page" as the code.
 In other words, where possible try to keep the reader from having to scroll.
 
 Refactoring code can be a most effective tool
-for maintaining useful degrees of modularization -- whenever
-the code stretches over several "pages" to read
+for maintaining useful degrees of modularization |--| whenever
+the code stretches over several pages to read
 then it is worth considering how to refactor.
 
-The same thing is also as true horizontally as it is vertically --
+The same thing is also as true horizontally as it is vertically |--|
 long lines become especially difficult to read.
 
 
 Write succintly
----------------
+===============
 
 The programmer is not writing a novel.
 A readable program is not so much even a novella
@@ -233,9 +237,13 @@ that can live in its own, separate, piece of documentation.
 
 
 End Thought
-===========
+***********
 
 Compilers may be arcane and picky, but they are patient.
 
 Programmers' patience is a very rare commodity.
 Be mindful to make good use of this essential resource.
+
+.. |--| unicode:: U+2013   .. en dash
+.. |...| unicode:: U+2026   .. horizontal ellipsis
+   :ltrim:

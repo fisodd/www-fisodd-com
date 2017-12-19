@@ -12,7 +12,7 @@ Administrivia
 
 This site is implemented as a static web site.
 The tools available today allow these sites to be rich in content,
-and yet lightweight in infrastructure -- and hence
+and yet lightweight in infrastructure |--| and hence
 very inexpensive and still easy to maintain.
 
 
@@ -26,7 +26,7 @@ and `Netlify <https://netlify.com>`__.
 
 Hugo is one of the more popular static site generator technologies,
 it was selected for this site
-because of its broad support and small footprint -- a pair of features
+because of its broad support and small footprint |--| a pair of features
 that together make a compelling argument.
 
 Github is possibly the most ubiquitous source safe system,
@@ -37,7 +37,7 @@ Netlify is the newest part of this stack;
 these folks really are a Content Delivery Network,
 but what makes them exciting to me is
 how they have turned Docker containers and a fair bit of IT savvy
-into an easy to use automatic site deployment process -- just
+into an easy to use automatic site deployment process |--| just
 check the bits back into Github
 and within a minute or two the new content
 is pushed out to the production servers.
@@ -75,4 +75,6 @@ support for `reStructuredText <http://docutils.sourceforge.net/rst.html>`__.
 While still a plaintext markup, reStructuredText is a more mature and robust
 solution designed to be able to handle complex documentation publication needs.
 For a taste, take a look at the `Tufte example </demo/tufte/>`__.
+
+.. |--| unicode:: U+2013   .. en dash
 
