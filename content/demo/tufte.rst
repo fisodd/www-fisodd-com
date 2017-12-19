@@ -146,9 +146,7 @@ as demonstrated at the beginning of this paragraph.
 Admittedly, the support for this feature in B-side is
 simplistic -- simple markup does not offer a proper
 implementation of small caps, so here we are making do
-with a hack with upper case lettering (hence we lack
-some of the notable details such as size differentiation
-of the capital letters in the new thought phrase).
+with the ``font-variant: small-caps;`` CSS property.
 
 .. code:: ReST
 
