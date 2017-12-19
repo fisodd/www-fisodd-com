@@ -2,6 +2,8 @@
 date = "2017-12-07T11:37:45-07:00"
 title = "Tufte Example"
 description = "An adaptation of the Tufte CSS sample page implemented in reStructuredText."
+categories = [ "Web" ]
+tags = [ "Tufte", "CSS", "reStructuredText" ]
 type = "post"
 
 +++

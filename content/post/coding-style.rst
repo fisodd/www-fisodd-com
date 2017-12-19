@@ -2,8 +2,7 @@
 title = "Coding Style"
 date = "2016-12-16T19:57:20-07:00"
 description = "Recently I came across an insightful article on coding style and this triggered some good conversations about coding conventions.  The ensuing discussions made me appreciate that coding conventions are much more easily understood when viewed as part of the overall coding style. [...]"
-
-categories = [ "opinion" ]
+categories = [ "Opinions" ]
 tags = [ "coding", "style" ]
 
 +++

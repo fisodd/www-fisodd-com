@@ -1,6 +1,9 @@
 +++
 date = "2016-04-25T12:00:00-08:00"
 title = "Practical Machine Learning Course Project"
+description = "A review of a submission for a simple machine learning exercise."
+categories = [ "Assignments" ]
+tags = [ "R", "random forest" ]
 type = "post"
 
 +++
@@ -10,7 +13,6 @@ The
 <http://fisodd.github.io/PracticalMachineLearning/>`__
 holds a small writeup done as the final project
 for the Practical Machine Learning course
-<!--more-->
 available through Coursera from the folks at
 the Bloomberg School of Public Health at John Hopkins University.
 

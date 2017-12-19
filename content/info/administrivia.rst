@@ -2,6 +2,8 @@
 date = "2017-12-08T20:25:24-08:00"
 title = "Administrivia"
 description = "The admin view of this server, a quick review of the technology that makes this site work."
+categories = [ "Web" ]
+tags = [ "Hugo", "reStructuredText", "Github", "Netlify" ]
 type = "post"
 weight = 33
 

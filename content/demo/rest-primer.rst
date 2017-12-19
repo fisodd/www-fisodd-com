@@ -2,6 +2,8 @@
 date = "2017-10-20T11:00:29-07:00"
 title = "A reStructuredText Primer"
 description = "An introductory sample of how reStructuredText works."
+categories = [ "Web" ]
+tags = [ "reStructuredText", "example" ]
 
 +++
 
