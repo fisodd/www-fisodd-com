@@ -12,5 +12,6 @@ Most of the rest comes out of an ongoing exploration
 of the rapidly expanding universe that is called Data Science.
 
 The most recent updates are listed below.
-All content can be reached via the menu at top of the page.
+All the content, old and new,
+can be reached via the sections listed in the menu at top of the page.
 
