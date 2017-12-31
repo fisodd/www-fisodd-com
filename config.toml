@@ -4,6 +4,7 @@ baseurl = "https://www.fisodd.com/"
 theme = "hugo-b-side"
 
 sectionPagesMenu = "main"
+googleAnalytics = "UA-79887258-1"
 
 [params]
   author = "Alexander Carlton"
