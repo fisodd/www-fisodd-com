@@ -1,7 +1,7 @@
 ---
 title: "Right Place, Right Time"
 date: 2018-07-28T12:20:41-07:00
-description: "A review of lessons learned from the experiences earned."
+description: "A review of lessons learned from experiences earned."
 type: post
 
 ---
@@ -15,8 +15,8 @@ Fortunate to be a the right place at the right time,
 I have been an active participant in, or at least have a front row seat for,
 many of the most dramatic transformations in computing.
 Many of these transformations have shown some similar attributes,
-notably the value of people willing to question what is really valuable
-and to dig for hard data that can convince others to question
+notably the importance of people willing to question what is really valuable
+and willing to dig for the hard data necessary to induce others to question
 their existing assumptions.
 
 
@@ -29,14 +29,17 @@ Dawn of Personal Computing: What and Why?
    It may have been one of the first "personal computers",
    but it was never a small device.
    Wang's
-   `marketing brochure <http://archive.computerhistory.org/resources/text/Wang/Wang.Model2200.1973.102646199.pdf>`__
+   `marketing brochure <Wang.Model2200.1973.102646199.pdf>`__
    provides a good overview, but for one illustrative example of
-   this system's quirks, note the keyboard layout shown (page 6).
+   this system's quirks note the keyboard layout (see page 6 of the brochure).
 
    .. figure:: Wang2200-terminal.jpg
-      :width: 500px
+      :width: 100%
 
-      Source: `Wang2200.org <http://www.wang2200.org>`__
+      Image: `Wang2200.org <http://www.wang2200.org>`__
+
+   Note: Brochure obtained from
+   `Computer History Museum archives <http://www.computerhistory.org/revolution/minicomputers/11/364/1998>`__
 
 I got my first exposure to computing in the mid '70s
 when my middle school in one of Boston's tech suburbs
@@ -67,6 +70,8 @@ Only a very small number of students wanted to have anything to do
 with that system, and even though I could already code and already
 had some idea of what that system could do
 I saw no benefit to working on anything that isolated.
+The power of any tool is limited by its degree of separation
+from its point of leverage.
 
 .. sidebar:: Apple II Reference Manual
 
@@ -81,9 +86,11 @@ I saw no benefit to working on anything that isolated.
    to the 6502 Instruction Set in Appendix A.
 
    .. figure:: AppleIIReference-product-74199.jpg
-      :width: 500px
 
-      Source: `Centre for Computing History <http://www.computinghistory.org.uk/det/22097/Apple-II-Reference-Manual/>`__
+      Image: `Centre for Computing History <http://www.computinghistory.org.uk/det/22097/Apple-II-Reference-Manual/>`__
+
+   Manual hosted within the amazing collections at 
+   `Archive.org <https://archive.org/>`__.
 
 In college, my roommate had been loaned an Apple II by his father,
 and I managed to talk my way into using that computer after he went to bed.
@@ -101,7 +108,7 @@ would change business computing.
 Even in its most rudamentary form, there was undeniable power with VisiCalc's
 flexible tables that automatically recalculated immediately.
 Decades later, as I work with data visualizations, I still can hear
-this man's wish: "If you could just write a charting program that
+this man's wish: "If you could just write a good charting program that
 could work with this stuff..."
 
 However, at the time the circle of coders for these personal systems
@@ -124,7 +131,7 @@ eager for the ever more immersive experiences that computer games could offer.
    to have as one's first boss.
 
    .. figure:: RayMontgomery-ray_obit_large.jpg
-      :width: 500px
+      :width: 100%
 
       Source: `CYOA <https://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
 
@@ -184,7 +191,7 @@ running several variants of BSD and System V Unix.
    complex).
 
    .. figure:: us__en_us__ibm100__risc_architecture__john_cocke__750x990.jpg
-      :width: 500px
+      :width: 100%
 
       Source: `IBM <http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/risc/>`__
 
@@ -212,10 +219,12 @@ deliver features that our customers were willing to pay extra to have now.
 
 .. sidebar:: Long days, wide arguments
 
-   It was not uncommon for the day to include
+   Our work in the performance teams was dependent upon the depth
+   of our relationships across many facets of product development.
+   It was not uncommon for a day to include
    a debate about optimal cache organizations at one end
-   and at the other end a discussion of which marketing claims would generate
-   the greatest reactions within the planned budget for advertising 
+   and at the other end a discussion of whether recently achieved
+   marketing claims warranted increased advertising budgets
    |--| a very tight loop between the technical details of implementation
    and the realities of what were the differences that customers would pay for.
    The range of materials in these sessions was mind-stretching,
@@ -245,7 +254,7 @@ Efficiency Rules
 
 Once the "dot com" bubble burst, the industry's attention shifted
 from 'biggest' and 'best' over to costs and efficiency.
-And here again I had a front-row seat to the next big transformation,
+And here again I ended up with a front-row seat to the next big transformation,
 this time helping commodity servers (high volume, low cost, x86-based
 servers) showcase their value proposition versus the existing solutions.
 Where we had been proving HP/UX could overtake the proprietary systems,
@@ -253,14 +262,16 @@ now I was involved in showing that Linux and Microsoft's Windows Server were
 just as capable and a whole lot cheaper to manage |--| matching the
 performance results was easy, the work was in stripping marketing claims
 down to bare facts and then reassembling a clearer picture of the real costs.
+Once again, we were successful in proving the underdog could win,
+and again the the marketplace transformed the industry.
 
 By the time that commodity servers had taken the drama out of the
 competitive performance arena, I was offered a chance to analyze and
 measure an entirely different transformation, the mobility revolution.
 My transition to this space was with laptop PCs, becoming part of the
 team working towards the vision of all day computing, figuring out the
-steps to move from heavy systems that maybe lasted a few hours between
-charges and instead deliver thin and light devices that could last all
+steps to move from heavy laptop PCs that maybe lasted a few hours between
+charges and instead deliver thin and light notebooks that could last all
 day on a single charge.  The key was to put aside the grand statements
 from the many participants and instead establish clear and verifiable
 measurements of comparable battery life experience, and then working to
@@ -268,32 +279,33 @@ track everyone's progress towards the overall goals.
 
 .. sidebar:: Crossover Point
 
-   Horace Dediu was one of the few industry analysts to realize early on
+   Horace Dediu was one of the earliest analysts to realize
    how disruptive smartphones would be to the computer industry.
    His blog at `Asymco.com <http://www.asymco.com/>`__
    is full of beautifully clear charts showing
    this disruption as it happens.
 
    .. figure:: Screen-Shot-2016-03-28-at-12.28.22-PM-617x620.png
-      :width: 500px
+      :width: 100%
 
       Source: `Aysmco: The Next 40 <http://www.asymco.com/2016/03/28/the-next-40/#identifier_0_7568>`__, 2016-03-28
 
 Even as the market delivered this vision
 with new laptops only a third of the weight
 and yet still more than twice the battery life,
-I was already off on a new assignment:
+I was already embarked on a new assignment:
 evaluating when, where, and how smartphones would threaten PCs.
 Starting alone, creating a new lab out of a basement storeroom,
 we built a team that will soon include a dozen people directly measuring
 all sorts of phone and tablet devices, working with dozens of partners
 across the country to generate some of the most reactive reports
-to be presented to the executive team.  The conclusions were controversial
+to be presented to the executive team.  Our conclusions were controversial
 but having done the work to make the measurements both robust and
-representative, when the shouting started instead of shooting the messenger
-our messages were used to drive change across many organizations.
+representative, when the shouting started instead of the usual
+shoot-the-messenger response
+our messages were used to drive change across the company.
 
-The point was that very few customers
+A common theme was that very few customers
 ever care about technology for technology's sake.
 The vast majority of the marketplace just wants solutions that provide
 the desired experience with a minimum of cost and hassle.
@@ -320,7 +332,7 @@ One of the few constants through all of these transformations has
 been the value of those who are willing to provide clear and steadfast
 advice in spite of pressure to go along and accept the current trends.
 Management may not like it, but the executive decisions are only as good
-as the information available at the time, and if everyone is afraid to
+as the information available at the time, and if key people are afraid to
 speak up these decisions will be made in an information vacuum.
 
 To be successful in these situations takes a lot of preparation,

@@ -1,0 +1,13 @@
+
+[[items]]
+   name = "Right Place, Right Time"
+   path = "/post/right-place/"
+   desc = "A review of lessons learned from the experiences earned."
+   date = "2018-07-28"
+
+[[items]]
+   name = "B-side Theme for Hugo"
+   path = "/repo/b-side/"
+   desc = "A Tufte-inspired theme for Hugo using reStructuredText to support margin notes and other features."
+   date = "2018-05-30"
+
