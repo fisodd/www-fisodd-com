@@ -26,14 +26,26 @@ The fundamental technologies are
 `Github <https://github.com/>`__,
 and `Netlify <https://netlify.com>`__.
 
+.. figure:: https://github.com/gohugoio/hugo/raw/master/docs/static/img/hugo-logo.png
+   :align: right
+   :width: 60%
+
 Hugo is one of the more popular static site generator technologies,
 it was selected for this site
 because of its broad support and small footprint |--| a pair of features
 that together make a compelling argument.
 
+.. figure:: https://assets-cdn.github.com/images/modules/logos_page/Octocat.png
+   :align: right
+   :width: 60%
+
 Github is possibly the most ubiquitous source safe system,
 the service is easy to use with ``git``
-and ubiquitous is hard to argue with.
+and being so ubiquitous is hard to argue with.
+
+.. figure:: https://www.netlify.com/img/press/logos/full-logo-light.png
+   :align: right
+   :width: 60%
 
 Netlify is the newest part of this stack;
 these folks really are a Content Delivery Network,
@@ -41,7 +53,7 @@ but what makes them exciting to me is
 how they have turned Docker containers and a fair bit of IT savvy
 into an easy to use automatic site deployment process |--| just
 check the bits back into Github
-and within a minute or two the new content
+and within a minute or so the new content
 is pushed out to the production servers.
 
 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+  <head>
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    {{ partial "head-internals.html" . }}
+    {{ partial "head-style.html" . }}
+    {{ partial "head-meta.html" . }}
+    {{ partial "head-rss.html" . }}
+  </head>
+  <body>
+    {{ partial "body-header.html" . }}
+    <article>
+      <header>
+        <h1>Page not found?</h1>
+        <p>Yikes!  Something is not right, we have nothing available
+	that matches the link you used to get here.
+	</p>
+        <p>It might be a typo, but it may very well be our fault
+	having moved things around and not fixed up all the old links.
+	</p>
+        <p>To find what you seek, we recommend starting at
+          <a href="{{ .Site.BaseURL }}">our home page</a>.
+        </p>
+      </header>
+    </article>
+    {{ partial "body-footer.html" . }}
+  </body>
+</html>

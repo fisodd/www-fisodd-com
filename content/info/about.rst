@@ -69,7 +69,7 @@ Other Information
 #################
 
 For those who may have questions or concerns,
-the `Administrivia <administrivia/>`__ article
+the `Administrivia </info/administrivia/>`__ article
 provides a description of the technology used
 to develop and maintain this site.
 

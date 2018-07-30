@@ -9,5 +9,5 @@ Repositories
 ############
 
 Summary information about the author's repositories
-on `Github <https://github.com/fisodd/>`__ and elsewhere.
+on `Github <https://github.com/fisodd/>`__.
 

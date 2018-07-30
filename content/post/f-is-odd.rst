@@ -7,19 +7,17 @@ tags = [ "hexadecimal" ]
 
 +++
 
-########
-F Is Odd
-########
+###########################
+'Fisodd' Because "F Is Odd"
+###########################
 
-Fisodd?  What the heck? |...|
-
-It may be pronounced like "fizz-sod",
+It may be pronounced something like "fizz-sod",
 but the name comes from the observation that
 *'F' is an odd number*.
 
-.. [*] Specifically, fifteen equals '0xF' in
+.. [*] Specifically, '0xF' equals fifteen in
    `Hexadecimal <https://en.wikipedia.org/wiki/Hexadecimal>`__,
-   a counting system with 16 rather than 10 digits.
+   a counting system that has 16 rather than usual 10 digits.
 
 For many the idea that 'F' is a number just seems odd (as in strange),
 but for those who spend too much time working with the lower level
@@ -67,17 +65,17 @@ the encoding scheme used was even less directly translatable).
 
 Needless to say, spending too much time looking at nothing
 but hexadecimal dumps of data does affect the mind.
-After days of checking hex codes and yet more hex,
+After days of checking hex codes and thinking in hexadecimal math,
 life back in the real world occasionally would be awkward.
-It is bad enough when roommates laugh
-because you talk as if there are 'C' eggs in a dozen.
+It is bad enough when roommates laugh over breakfast
+when you talk as if there are 'C' eggs in a dozen.
 But things can get a bit tricky at the local store
 when you act as if a dime is worth 16 cents.
 Explaining how to go between the two counting systems
 quickly became a necessary skill.
 
 Decades later, hexdumps are becoming as rare as
-`pocket calculators <https://en.wikipedia.org/wiki/HP-16C>`__,
+`my pocket calculator <https://en.wikipedia.org/wiki/HP-16C>`__,
 and yet still I commute
 between the precise bit-denominated realms of processing
 and the more rough-hewn daily realities.

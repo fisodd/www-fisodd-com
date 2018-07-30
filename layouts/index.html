@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <section>
+    {{ .Content }}
+  </section>
+  <section>
+    {{- $mainSections := .Site.Params.mainSections | default (slice "post") -}}
+    {{- $section := where .Site.RegularPages "Section" "in" $mainSections -}}
+    {{- $section_count := len $section -}}
+    {{- if ge $section_count 1 -}}
+      {{- $section_name := index (.Site.Params.mainSections) 0 }}
+      <div>
+        {{- with .Site.GetPage "section" $section_name }}
+          <h1>Recent Activity in {{ .Title }}</h1>
+        {{- end -}}
+        {{- range (first 3 $section.ByDate.Reverse) -}}
+          {{ .Render "summary" }}
+        {{- end -}}
+        {{- if ge $section_count 4 -}}
+          <hr class="docutils">
+          {{- with .Site.GetPage "section" $section_name -}}
+            <h2>More from {{ .Title }}</h2>
+          {{- end -}}
+          <ul>
+          {{- range (first 4 (after 3 $section)) -}}
+            <li><a href="{{ .URL }}"> {{ .Title }} </a></li>
+          {{- end -}}
+          </ul>
+          {{- with .Site.GetPage "section" $section_name -}}
+          <ul>
+            <li><a href="{{ .URL }}">All {{.Title }}</a></li>
+          </ul>
+          {{- end -}}
+        {{- end -}}
+      </div>
+    {{- end -}}
+  </section>
+{{ end }}
