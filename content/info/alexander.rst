@@ -12,15 +12,15 @@ Alexander Carlton
 #################
 
    Excited to find useful news where others may only see heaps of data,
-   even better when creating the right visualization
-   allows others to quickly appreciate the results and understand the effects.
+   even better when creating the right visualization allows others
+   to quickly appreciate the results and understand the effects.
 
 For more, see
 `my resume </work/cv/AlexanderCarlton_DataAnalystPerformanceDeveloper.pdf>`__
 or
 `my LinkedIn profile <https://www.linkedin.com/in/AlexanderCarlton>`__.
 
-Some recent projects are available at
+Some projects are available at
 `GitHub <https://www.github.com/fisodd>`__.
 
 

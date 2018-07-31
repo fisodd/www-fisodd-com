@@ -11,7 +11,7 @@ type: post
 Right Place, Right Time
 #######################
 
-Fortunate to be a the right place at the right time,
+Fortunate to be at the right place at the right time,
 I have been an active participant in, or at least have a front row seat for,
 many of the most dramatic transformations in computing.
 Many of these transformations have shown some similar attributes,
@@ -105,7 +105,7 @@ My roommate's father had very high hopes for what these personal systems
 could do for small businesses like his, and I had to admit working with
 VisiCalc was a breakthrough moment to appreciating how these systems
 would change business computing.
-Even in its most rudamentary form, there was undeniable power with VisiCalc's
+Even in its most rudimentary form, there was undeniable power with VisiCalc's
 flexible tables that automatically recalculated immediately.
 Decades later, as I work with data visualizations, I still can hear
 this man's wish: "If you could just write a good charting program that
@@ -136,7 +136,7 @@ eager for the ever more immersive experiences that computer games could offer.
       Source: `CYOA <https://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
 
 Bridging between worlds as an English Major spending inordinate amounts
-of time in the CS department, I did manage some very interesting opportunties,
+of time in the CS department, I did manage some very interesting opportunities,
 which later became
 `the genesis of this site's name </post/f-is-odd>`__.
 Ray Montgomery, a local author and early coder,
@@ -213,7 +213,7 @@ where the challenge was not just RISC versus CISC,
 but was taking on mainframe computers and proving that minicomputers
 could win business in core business computing accounts.
 Here I was embedded right in the midst of the arguments between goals
-and pragmatic delivery, and our business flurished because we did have
+and pragmatic delivery, and our business flourished because we did have
 a visionary architecture but we also had the disciplined focus to
 deliver features that our customers were willing to pay extra to have now.
 
@@ -241,7 +241,7 @@ The base work was pushing systems and developing tests to highlight
 that our servers could scale faster than our customer's desired growth plans.
 The bonus work was projects assigned by our executives to evaluate a wide
 variety of web technology that were being considered as potential
-aquisitions or future competition |--| a fascinating stream of
+acquisitions or future competition |--| a fascinating stream of
 wild ideas and even wilder expectations.
 In a period where it seemed like everyone was being rewarded
 for attempting an even more outlandish claim than the one before,
@@ -263,7 +263,7 @@ just as capable and a whole lot cheaper to manage |--| matching the
 performance results was easy, the work was in stripping marketing claims
 down to bare facts and then reassembling a clearer picture of the real costs.
 Once again, we were successful in proving the underdog could win,
-and again the the marketplace transformed the industry.
+and again the marketplace transformed the industry.
 
 By the time that commodity servers had taken the drama out of the
 competitive performance arena, I was offered a chance to analyze and
@@ -333,7 +333,7 @@ been the value of those who are willing to provide clear and steadfast
 advice in spite of pressure to go along and accept the current trends.
 Management may not like it, but the executive decisions are only as good
 as the information available at the time, and if key people are afraid to
-speak up these decisions will be made in an information vacuum.
+speak up then these decisions will be made in an information vacuum.
 
 To be successful in these situations takes a lot of preparation,
 and often a bit of good fortune,

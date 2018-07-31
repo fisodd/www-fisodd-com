@@ -81,7 +81,7 @@ are encouraged to consider the excellent Tufte CSS project.
 You can start by exploring the links in the original Tufte CSS material
 that is quoted in the sidebar to the right of this text.
 Those interested in similar behavior
-with a cleaner "modern" aesethic
+with a cleaner "modern" aesthetic
 should review the Envisioned CSS project referenced above.
 
 
@@ -184,7 +184,7 @@ The B-side theme is based on the Google ``Roboto`` font.
 Arguably not as nice as Bembo or even
 the now open-source
 `ETBook <https://github.com/edwardtufte/et-book>`_,
-B-side acknowleges that the web is not print;
+B-side acknowledges that the web is not print;
 web lacks the fine resolution that make good serifs a joy to read,
 web also lacks the predicability that comes from pre-printed ink and paper.
 
@@ -201,7 +201,7 @@ web also lacks the predicability that comes from pre-printed ink and paper.
    where many of the concerns of good typography
    are well outside the control of the content developers.
 
-The B-side theme does explictly load the bold and italic variants of Roboto
+The B-side theme does explicitly load the bold and italic variants of Roboto
 for bold (strong) and italic (emphasis),
 instead of relying on the browser to mechanically transform the text.
 This is typographic best practice.

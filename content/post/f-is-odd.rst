@@ -55,7 +55,7 @@ I would spend several hours at a time proof reading
 line after line of hexadecimal digits,
 endless sequences that looked like
 ``6C6F 6F6B 7320 6D6F 7374 6C79 206C 696B 6520 6A75 6E6B``
-(except owing to the pecularities of the environment,
+(except owing to the peculiarities of the environment,
 the encoding scheme used was even less directly translatable).
 
 .. figure:: hexdump.png

@@ -32,7 +32,7 @@ This dataset provided, once processed to manage the many NA values,
 turns out to be a very good fit for
 a Random Forest approach to classification.
 Ridiculously good fit, perhaps too good a fit;
-if the student choses a reasonable solution for managing NA values,
+if the student chooses a reasonable solution for managing NA values,
 then even the most naive methods of fitting a random forest results
 in miss-prediction rates near 1%.
 

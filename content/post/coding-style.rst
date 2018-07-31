@@ -52,7 +52,7 @@ more often than it will be parsed by compilers.
 Choose the style to match the needs of the more important audience.
 
 Compilers can make sense out of almost anything
-that is syntatically correct, and more importantly
+that is syntactically correct, and more importantly
 (so long as one adheres to the language definitions)
 compilers will suffer in silence.
 Yes, humans can puzzle out the logic in almost anything,
@@ -146,8 +146,8 @@ but there is more to good indentation than just white space.
 
 A good indentation scheme reveals the intended structure of the code.
 The coding style should draw attention to that structure.
-It should be clear from how the intentation is laid out
-what is the intended stucture of the function.
+It should be clear from how the indentation is laid out
+what is the intended structure of the function.
 Note: of course (other than Python and FORTRAN)
 the specific details of indentation is not binding on the compilers
 so it is possible that the source layout
