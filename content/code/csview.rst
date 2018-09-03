@@ -20,13 +20,14 @@ type: "post"
 CSView
 ######
 
-CSView is a Customizable Summary Viewer for CSV content,
+`CSView <https://github.com/fisodd/csview>`__
+is a Customizable Summary Viewer for CSV content,
 including dynamic tables and responsive charts.
 
 The intent is to provide a quick and easy way
 to get to see what is inside CSV content.
 
-`Use CSView online </work/csview/>`__
+Live demo: `Use CSView online </work/csview/>`__.
 
 
 Rationale
@@ -45,8 +46,13 @@ to keep straight which abbreviated filename goes with which case.
 
 Which dateset is without the column of labels?
 Which dataset has the extraneous rows trimmed out?
-Which dataset has the latest data?
+Which dataset includes the recently updated data?
 Which dataset was the one where the peak values were notably higher?
+
+Also, what does the data look like if I filter out last week's datapoints?
+What is the minimum value of that Nth column?
+Does that minimum change when I filter out last week's datapoints?
+What are the details for the outlier datapoints?
 
 CSV is easy enough to load into a text editor,
 but editors can be awkward when the lines are long
