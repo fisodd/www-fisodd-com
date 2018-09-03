@@ -2,7 +2,7 @@
 [[items]]
    name = "CSView"
    path = "/repo/csview/"
-   desc = "A web-app to view CSV content."
+   desc = "A web-app to view CSV content; dynamic tables, interactive charts."
    date = "2018-09-02"
 
 [[items]]

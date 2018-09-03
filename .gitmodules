@@ -1,3 +1,6 @@
 [submodule "themes/hugo-b-side"]
 	path = themes/hugo-b-side
 	url = https://github.com/fisodd/hugo-b-side.git
+[submodule "static/work/csview"]
+	path = static/work/csview
+	url = https://github.com/fisodd/csview.git
