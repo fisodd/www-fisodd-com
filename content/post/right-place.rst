@@ -2,7 +2,7 @@
 title: "Right Place, Right Time"
 date: 2018-07-28T12:20:41-07:00
 description: "A review of lessons learned from experiences earned."
-type: post
+type: "post"
 
 ---
 

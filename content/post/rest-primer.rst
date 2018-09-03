@@ -2,10 +2,20 @@
 date = "2017-10-20T11:00:29-07:00"
 title = "A reStructuredText Primer"
 description = "An introductory sample of how reStructuredText works."
-categories = [ "Web" ]
-tags = [ "reStructuredText", "example" ]
+categories = [ "Demo" ]
+tags = [ "reStructuredText", "Hugo", "example" ]
+type = "wide"
 
 +++
+
+The following is a demonstration of some features of
+reStructuredText within a Hugo website
+utilizing the `B-Side theme </code/b-side/>`__.
+The demo contents are taken directly
+from the reStructuredText
+`Primer <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`__
+with almost zero changes
+(changed one case of ":" to "::").
 
 
 A ReStructuredText Primer
