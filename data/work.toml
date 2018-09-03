@@ -6,15 +6,8 @@
    date = "2018-09-02"
 
 [[works]]
-   name = "Anscombes Quartet"
-   path = "/work/AnscombesQuartet/"
-   desc = "A short slide deck on simple shiny app based on Anscombe's Quartet, created to be a quick demo of Markdown in Slidify."
-   date = "2016-04-03"
-
-[[works]]
    name = "Storm Events"
    path = "/work/StormEvents/"
-   desc = "An executive summary of a NOAA dataset, written to be a small sample of RMarkdown."
+   desc = "An executive summary of a NOAA dataset; a simple academic assignment useful mostly as a demonstration of RMarkdown's ability to readily integrate writeup and code in the same file."
    date = "2016-03-01"
-
 

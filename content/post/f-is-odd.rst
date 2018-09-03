@@ -2,7 +2,7 @@
 date = "2016-04-25T23:04:58-07:00"
 title = "F Is Odd"
 description = "Fisodd?  It may be pronounced like 'fizz-sod', but the name comes from the observation that 'F' is an odd number."
-categories = [ "History" ]
+categories = [ "Opinions" ]
 tags = [ "hexadecimal" ]
 
 +++

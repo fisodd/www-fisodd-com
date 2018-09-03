@@ -1,7 +1,7 @@
 +++
 date = "2017-12-08T08:40:33-08:00"
 title = "Fisodd"
-type = "post"
+type = "wide"
 
 +++
 
@@ -22,5 +22,5 @@ of the rapidly expanding universe that is called Data Science.
 
 Some recent updates are listed below.
 All the content, old and new,
-can be reached via the sections listed in the menu at top of the page.
+can be found within the sections listed in the menu at top of the page.
 

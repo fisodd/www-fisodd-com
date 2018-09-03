@@ -51,7 +51,7 @@ Which dataset was the one where the peak values were notably higher?
 CSV is easy enough to load into a text editor,
 but editors can be awkward when the lines are long
 and the content is not regular,
-and sorting by the Nth column is not an editor's common usage.
+and sorting by the Nth column is not a simple operation in many editors.
 
 Spreadsheets certainly can manage CSV files,
 but these can be overkill just to check what columns are well populated,
@@ -63,6 +63,11 @@ to experiement with which columns to use as the axes in a chart.
 CSView offers one way to quickly load a file
 and then play around with the contents
 either in a tabular view or in a chart graphic.
+CSView provides simple controls to choose which columns to select,
+what rows to filter out, how to sort/resort.
+The chart view can easily change axes, color column values,
+show full information by hovering over a datapoint,
+and supports a brush feature to zoom in on areas of interest.
 
 CSView is a quick data exploration tool.
 It is not meant for generating presentation materials,

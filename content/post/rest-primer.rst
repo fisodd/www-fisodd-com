@@ -1,9 +1,9 @@
 +++
 date = "2017-10-20T11:00:29-07:00"
 title = "A reStructuredText Primer"
-description = "An introductory sample of how reStructuredText works."
+description = "An introductory sample of Hugo and the B-Side theme based on an example file from the reStructuredText documentation."
 categories = [ "Demo" ]
-tags = [ "reStructuredText", "Hugo", "example" ]
+tags = [ "reStructuredText", "Hugo", "B-side" ]
 type = "wide"
 
 +++

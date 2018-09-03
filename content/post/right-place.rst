@@ -1,7 +1,9 @@
 ---
 title: "Right Place, Right Time"
 date: 2018-07-28T12:20:41-07:00
-description: "A review of lessons learned from experiences earned."
+description: "A review of some lessons learned from the experiences earned."
+categories: ["Opinions"]
+tags: ["Wang 2200", "Apple II", "Unix", "RISC", "Dot Com", "smartphones"]
 type: "post"
 
 ---
@@ -136,8 +138,8 @@ eager for the ever more immersive experiences that computer games could offer.
       Source: `CYOA <https://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
 
 Bridging between worlds as an English Major spending inordinate amounts
-of time in the CS department, I did manage some very interesting opportunities,
-which later became
+of time in the CS department,
+I did manage some very interesting opportunities, which later became
 `the genesis of this site's name </post/f-is-odd>`__.
 Ray Montgomery, a local author and early coder,
 was at the leading edge of interactive fiction,
@@ -324,20 +326,21 @@ Observations
 Today, with the freedom to work on the projects that most intrigue me,
 I am playing in the deep waters of Data Science.  And yet, even in
 these new areas of discovery, I find myself still watching again
-how the heat and energy of hype is quickly lost, and that real progress
+how quickly over-hyped energy is dissipated, and that real progress
 comes from the stable engineering of those who have a solid grip on
 what is really necessary to address the problem at hand.
 
 One of the few constants through all of these transformations has
 been the value of those who are willing to provide clear and steadfast
 advice in spite of pressure to go along and accept the current trends.
-Management may not like it, but the executive decisions are only as good
-as the information available at the time, and if key people are afraid to
-speak up then these decisions will be made in an information vacuum.
+Management may not immediately appreciate the push-back, but executive
+decisions will only be as good as the information available at the time,
+and if key people are afraid to speak up
+then these decisions will be made in an information vacuum.
 
 To be successful in these situations takes a lot of preparation,
 and often a bit of good fortune,
-but they all start with a willingness to stand up
+but all these situations start with a willingness to stand up
 and draw attention to some well founded data
 that reveals what others may not want to see.
 
