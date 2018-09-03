@@ -1,5 +1,11 @@
 
 [[works]]
+   name = "CSView"
+   path = "/work/csview/"
+   desc = "Customizable Summary View of CSV content, with dynamic tables and responsive charts."
+   date = "2018-09-02"
+
+[[works]]
    name = "Anscombes Quartet"
    path = "/work/AnscombesQuartet/"
    desc = "A short slide deck on simple shiny app based on Anscombe's Quartet, created to be a quick demo of Markdown in Slidify."

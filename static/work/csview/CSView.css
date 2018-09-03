@@ -1,0 +1,231 @@
+body {
+	font-family: "Open Sans", Ariel, Helvetica, sans-serif;
+}
+
+
+.toggle {
+	margin-left: 5px;
+	font-size: 0.75rem;
+}
+.overlay {
+	position: absolute;
+        opacity: 0;
+        padding: 5px;
+	background: #ccc;
+}
+.overlay p {
+	width: 30em;
+}
+
+.label {
+	margin-left: 5px;
+	margin-right: 5px;
+	border: none;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.lead {
+	clear: both;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+}
+.lead:hover {
+	background: #aca;
+}
+.lead.live {
+	border: none;
+        padding: 1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+        margin-bottom: 0;
+}
+.content {
+	float: left;
+}
+.content::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.input-filter {
+	float: right;
+	clear: both;
+}
+
+label.chooser {
+	margin: 5px;
+	border: solid 1px black;
+	border-radius: 5px;
+	padding: 3px;
+	background: #ccc;
+}
+label.chooser:hover {
+	background: #aca;
+}
+
+.input-button {
+	margin: 5px;
+	border: solid 1px black;
+	border-radius: 5px;
+	padding: 3px;
+	background: #ccc;
+        display: initial;
+}
+.input-button.selected {
+	background: #0ff;
+}
+.input-button:hover {
+	background: #aca;
+}
+
+.input-text {
+	background: #fff;
+}
+.input-hidden {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+}
+.input-drag {
+	background: #fff;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: dashed 1px #ccc;
+        padding: 20px;
+        display: initial;
+}
+
+.input-drop {
+	background: #fff;
+}
+.input-select {
+	background: #eee;
+	color: #aaa;
+}
+.input-select.input-show {
+	background: #aaa;
+	color: #000;
+}
+
+.rigging {
+	float: right;
+}
+.rigging::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.view-setting {
+	/*margin-left: 1rem;*/
+	float: right;
+	clear: both;
+}
+/*
+.view-setting::before {
+	content: "["
+}
+.view-setting::after {
+	content: "]"
+}
+*/
+
+button,
+select,
+input {
+	font-family: "Open Sans", Ariel, Helvetica, sans-serif;
+}
+pre {
+	font-family: "Inconsolata", monospace;
+}
+table.result-table {
+	font-family: "Inconsolata", monospace;
+}
+table.result-table th:hover {
+	background: #ccc;
+}
+table.result-table th {
+	background: #aaa;
+}
+table.result-table th.aes {
+	background: linear-gradient(#ccc, #888);
+}
+table.result-table th.des {
+	background: linear-gradient(#888, #ccc);
+}
+table.result-table tr:nth-of-type(odd) {
+	background: #eee;
+}
+table.result-table th,
+table.result-table td {
+	border: none;
+}
+
+div.tooltip {
+	position: absolute;
+	margin: 8px;
+	border-radius: 4px;
+	padding: 4px;
+	background: #ccc;
+	pointer-events: none;
+}
+div.tooltip li.bulletless {
+	list-style: none;
+        margin: 0;
+}
+div.tooltip span.tip-label {
+	font-weight: bold;
+}
+div.tooltip span.tip-label::after {
+	content: ": "
+}
+
+
+.live {
+	background: #ccc;
+}
+.ready {
+	background: #aca;
+}
+.inactive {
+	color: #ccc;
+        pointer-events: none;
+}
+.clickable {
+	cursor: pointer;
+}
+.greyed {
+	color: #aaa;
+}
+.smashed {
+	font-size: 0.5em;
+}
+.squished {
+	font-size: 0.75em;
+}
+.inline {
+	display: inline-block;
+}
+.clear-both {
+	clear: both;
+}
+.hidden {
+        display: none;
+}
+
+@media (any-pointer:coarse) {
+	input,
+	textarea,
+        button,
+        select,
+	div.inputs {
+	        font-size: 48px;
+        }
+        input[type=radio] {
+	        width: 1em;
+                height: 1em;
+        }
+}
