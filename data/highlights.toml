@@ -1,7 +1,7 @@
 
 [[items]]
    name = "CSView"
-   path = "/post/csview/"
+   path = "/repo/csview/"
    desc = "A web-app to view CSV content."
    date = "2018-09-02"
 
