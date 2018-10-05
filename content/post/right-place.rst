@@ -18,8 +18,8 @@ I have been an active participant in, or at least have a front row seat for,
 many of the most dramatic transformations in computing.
 Many of these transformations have shown some similar attributes,
 notably the importance of people willing to question what is really valuable
-and willing to dig for the hard data necessary to induce others to question
-their existing assumptions.
+|--| and who are willing to dig for the hard data necessary
+to induce others to question their existing assumptions.
 
 
 Dawn of Personal Computing: What and Why?
@@ -33,7 +33,8 @@ Dawn of Personal Computing: What and Why?
    Wang's
    `marketing brochure <Wang.Model2200.1973.102646199.pdf>`__
    provides a good overview, but for one illustrative example of
-   this system's quirks note the keyboard layout (see page 6 of the brochure).
+   this system's quirks note the keyboard layout
+   (shown on page 6 of the brochure).
 
    .. figure:: Wang2200-terminal.jpg
       :width: 100%
@@ -46,28 +47,30 @@ Dawn of Personal Computing: What and Why?
 I got my first exposure to computing in the mid '70s
 when my middle school in one of Boston's tech suburbs
 was gifted with one of the earliest "personal computers".
-A storage closet was cleared out to become the computer lab
+A storage closet was cleared out to become a "computer lab"
 with an full sized table dedicated to hold this 60 pound
 electronic beast and all of its various support units.
 The only display was a small CRT with at most 16 lines of text
-with a modified typewriter attached that could be used
-to generate hardcopy, and all the "storage" was on cassette tapes.
-And yet, this system was clearly 'personal', it booted in seconds,
-and while the display was small it was immediate and interactive.
+along with a modified typewriter attached that could be used
+to dump out hardcopy, and all the "storage" was on cassette tapes.
+And yet, this system was clearly personal in nature,
+it booted in seconds into an interactive environment,
+and even if the display was small the updates were immediate.
 
 The question was what to do with this thing?  Our math teacher
 got us all to go through the steps to display crude sinewaves and
-other geometric shapes, and other extensions of our "new math" curriculum.
-But for us, the answer was obvious: games!
-The few cassette tapes with the BASIC games were very popular,
-and even a simple animated horse race game that I wrote
+other geometric shapes,
+and work through other extensions of our "new math" curriculum.
+But for us kids, the answer was obvious: games!
+The few cassette tapes we had with some BASIC games were all very popular,
+and even a simple animated horse race game that I wrote myself
 got banned during school hours
 because of distracting too many students during class.
 
 A few years later my fancy high-school got a PDP-11 minicomputer,
 and the experience was entirely different |--| a stereotypical example
-of isolation.  The system was set up in the basement, in a locked room,
-with access granted only after earning a science teacher's approval.
+of isolation.  That system was set up in the basement, in a locked room,
+with no access without first earning a science teacher's approval.
 Only a very small number of students wanted to have anything to do
 with that system, and even though I could already code and already
 had some idea of what that system could do
@@ -95,29 +98,30 @@ from its point of leverage.
    `Archive.org <https://archive.org/>`__.
 
 In college, my roommate had been loaned an Apple II by his father,
-and I managed to talk my way into using that computer after he went to bed.
+and, being much more of a night-owl than my roommate,
+I managed to talk my way into using that computer after he went to bed.
 Starting with `RobotWar <https://en.wikipedia.org/wiki/RobotWar>`__
 and eventually making heavy use of the seriously detailed early Apple manuals,
-I was able to recover my old coding skills
+I was able to recover my early coding skills
 and even teach myself how to code in 6502 Assembly
 completing a variety of little visual games
 pushing the limits of that 16 color graphics system.
 
 My roommate's father had very high hopes for what these personal systems
 could do for small businesses like his, and I had to admit working with
-VisiCalc was a breakthrough moment to appreciating how these systems
+VisiCalc was a breakthrough moment for appreciating how these systems
 would change business computing.
 Even in its most rudimentary form, there was undeniable power with VisiCalc's
-flexible tables that automatically recalculated immediately.
+flexible tables that recalculated automatically and immediately.
 Decades later, as I work with data visualizations, I still can hear
-this man's wish: "If you could just write a good charting program that
+this man's wish: "If you guys could just write a good charting program that
 could work with this stuff..."
 
-However, at the time the circle of coders for these personal systems
-was rather small and even in my university's backwaters I got
-a chance to trade a few beers to hear Richard Garriott tell
-his stories about his work to create the early Ultima games.
-And even then while it was clear that these systems could
+At the time the circle of coders for these personal systems
+was rather small, and even in my university's backwaters
+for the cost of a few beers I got a chance to hear Richard Garriott tell
+his stories about the challenges creating the early Ultima games.
+And even then, while it was clear that the little systems could
 change the way business worked, it was even more clear that
 there was an even larger audience beyond the business world that was
 eager for the ever more immersive experiences that computer games could offer.
@@ -148,8 +152,8 @@ to fit within the limits of
 `early Atari consoles <https://en.wikipedia.org/wiki/Atari_2600>`__
 was an excellent introduction to the decision processes
 for how to successfully determine what to keep and what to drop
-in order to satisfy a target audience.
-Computers could do cool tricks, but in the end the only things that are
+in order to satisfy a specific target audience.
+Computers could do cool tricks, but in the end the only parts that are
 necessary are those that are serving the overall experience |--|
 judicial editing is as important for any application on a computer
 as it is for any published text.
@@ -167,7 +171,7 @@ This break was massively disruptive to the engineering college,
 but the resulting chaos provided me just the break I needed
 to go from an English major taking CS classes and skip through
 a lot of prerequisites and waitlists to become not only a full-time CS student
-but also a TA for some of the new higher level CS courses.
+but also a teaching assistant for some of the new higher level CS courses.
 Before long, instead of just being a user of the common timesharing systems,
 I had earned root login privileges on PDP-11s and VAXes running BSD Unix
 and I jumped at an offer to stay for a masters degree
@@ -178,7 +182,9 @@ running several variants of BSD and System V Unix.
 
 .. sidebar:: RISC vs CISC
 
-   My thesis advisor, David Train, had recently been working on the
+   My thesis advisor,
+   `David Train <https://www.linkedin.com/in/david-train-7589024>`__,
+   had recently been working on the
    `Manchester Dataflow Machine <https://en.wikipedia.org/wiki/Dataflow_architecture>`__
    and had some seriously different views on computer architecture.
    I was assigned a few projects of architecture analysis, including
@@ -189,7 +195,7 @@ running several variants of BSD and System V Unix.
    which led me to be a firm adherent of the RISC design philosophies
    even when I later came to work at Intel
    (though by then the key parts of the x86 architecture was implemented
-   in a clean streamlined design even if the instruction set was still
+   in relatively cleaner designs even if the instruction set was still
    complex).
 
    .. figure:: us__en_us__ibm100__risc_architecture__john_cocke__750x990.jpg
@@ -207,17 +213,17 @@ At HP I was actively involved in a series of David-takes-on-Goliath battles
 that was reshaping computing.  The battle that attracted me to HP was the
 RISC-vs-CISC design argument, and HP's PA-RISC proved to be every bit as
 interesting as I had hoped, especially the out-of-order execution capabilities
-which echoed some of the DataFlow architecture issues my advisor had
+which echoed a few of the DataFlow architecture ideas my advisor had
 discussed.
 
 Soon I found myself involved in the arena of competitive performance
 where the challenge was not just RISC versus CISC,
-but was taking on mainframe computers and proving that minicomputers
+but included taking on mainframe computers and proving that minicomputers
 could win business in core business computing accounts.
-Here I was embedded right in the midst of the arguments between goals
-and pragmatic delivery, and our business flourished because we did have
+Here I was embedded right in the midst of the arguments between design goals
+versus pragmatic delivery, and our business flourished because we did have
 a visionary architecture but we also had the disciplined focus to
-deliver features that our customers were willing to pay extra to have now.
+deliver features that our customers were willing to pay extra to have right now.
 
 .. sidebar:: Long days, wide arguments
 
@@ -234,20 +240,20 @@ deliver features that our customers were willing to pay extra to have now.
    was inspiring.
 
 By the time the
-`"dot com boom" <https://en.wikipedia.org/wiki/Dot-com_bubble>`__
+`"dot com bubble" <https://en.wikipedia.org/wiki/Dot-com_bubble>`__
 began to grow, what had been a relatively small group of people
 was now a multi-billion dollar business,
-and I was managing a team working on web-server performance
+and I was managing a team of engineers working on web-server performance
 and analysis of new web technologies.
-The base work was pushing systems and developing tests to highlight
-that our servers could scale faster than our customer's desired growth plans.
+Our base work was stressing systems and developing tests to highlight
+how our servers could scale faster than our customer's desired growth plans.
 The bonus work was projects assigned by our executives to evaluate a wide
 variety of web technology that were being considered as potential
 acquisitions or future competition |--| a fascinating stream of
 wild ideas and even wilder expectations.
 In a period where it seemed like everyone was being rewarded
 for attempting an even more outlandish claim than the one before,
-we were prospering precisely because we had earned a reputation
+my team was prospering precisely because we had earned a reputation
 for identifying flaws and providing well reasoned criticisms.
 
 
@@ -258,20 +264,21 @@ Once the "dot com" bubble burst, the industry's attention shifted
 from 'biggest' and 'best' over to costs and efficiency.
 And here again I ended up with a front-row seat to the next big transformation,
 this time helping commodity servers (high volume, low cost, x86-based
-servers) showcase their value proposition versus the existing solutions.
+servers) showcase their value proposition versus the existing minicomputers.
 Where we had been proving HP/UX could overtake the proprietary systems,
 now I was involved in showing that Linux and Microsoft's Windows Server were
-just as capable and a whole lot cheaper to manage |--| matching the
-performance results was easy, the work was in stripping marketing claims
+just as capable and a whole lot cheaper |--| matching the
+performance results was easy, the hard work was in stripping marketing claims
 down to bare facts and then reassembling a clearer picture of the real costs.
 Once again, we were successful in proving the underdog could win,
 and again the marketplace transformed the industry.
 
 By the time that commodity servers had taken the drama out of the
-competitive performance arena, I was offered a chance to analyze and
-measure an entirely different transformation, the mobility revolution.
+competitive performance arena, I was offered a chance to move to Intel
+analyzing and measuring an entirely different transformation,
+the mobility revolution.
 My transition to this space was with laptop PCs, becoming part of the
-team working towards the vision of all day computing, figuring out the
+team working towards the vision of "all day computing", figuring out the
 steps to move from heavy laptop PCs that maybe lasted a few hours between
 charges and instead deliver thin and light notebooks that could last all
 day on a single charge.  The key was to put aside the grand statements
@@ -295,10 +302,10 @@ track everyone's progress towards the overall goals.
 Even as the market delivered this vision
 with new laptops only a third of the weight
 and yet still more than twice the battery life,
-I was already embarked on a new assignment:
+I had already embarked on a new assignment:
 evaluating when, where, and how smartphones would threaten PCs.
 Starting alone, creating a new lab out of a basement storeroom,
-we built a team that will soon include a dozen people directly measuring
+we built a team that would soon include a dozen people directly measuring
 all sorts of phone and tablet devices, working with dozens of partners
 across the country to generate some of the most reactive reports
 to be presented to the executive team.  Our conclusions were controversial
