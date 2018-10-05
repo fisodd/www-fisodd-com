@@ -27,28 +27,20 @@ Info
 The `Info </info/>`__ section contains the articles that are about this site,
 including this "About" message.
 
-Repos
+
+Codes
 *****
 
-The items in the `Repos </repo/>`__ section
+The items in the `Codes </code/>`__ section
 each contain the current documentation for the associated repository.
 These are updated on an ongoing basis.
 
-Note: Many of the early repositories
+Note: The earliest repositories
 were crafted to meet the specific requirements
 of assignments for the Data Science Specialization
 as offered from the John Hopkins Bloomberg School of Public Health
 via Coursera.
 
-Demos
-*****
-
-The `Demos </demo/>`__ are articles created to showcase
-a feature or capability.
-
-Many of these items are displays of the features of
-`the B-side theme for Hugo </repo/b-side/>`__
-created by the author for websites like this one.
 
 Works
 *****

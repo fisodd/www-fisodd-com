@@ -11,8 +11,8 @@ tags = [ "hexadecimal" ]
 'Fisodd' Because "F Is Odd"
 ###########################
 
-It may be pronounced something like "fizz-sod",
-but the name comes from the observation that
+Perhaps pronounced something like "fizz-sod",
+the name comes from the observation that
 *'F' is an odd number*.
 
 .. [*] Specifically, '0xF' equals fifteen in

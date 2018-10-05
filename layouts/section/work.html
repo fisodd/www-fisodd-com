@@ -13,7 +13,7 @@
         {{ with index $element "desc" }}
           <li>{{ . }}</li>
         {{ end }}
-        <li><em><time datetime='{{ dateFormat "2006-01-02T15:04:05Z07:00" (index $element "date") }}'>{{ dateFormat $dateFormat (index $element "date") }}</em></li>
+        <li class="smaller dim"><em><time datetime='{{ dateFormat "2006-01-02T15:04:05Z07:00" (index $element "date") }}'>{{ dateFormat $dateFormat (index $element "date") }}</em></li>
         <li>&nbsp;</li>
         <li><a href='{{ index $element "path" | safeURL }}'>View work ...</a></li>
       </ul>

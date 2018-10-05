@@ -8,7 +8,7 @@ type = "wide"
 .. pull-quote::
 
    If Data begets Knowledge,
-   then Knowledge with Insight together can raise Understanding.
+   then Knowledge together with Insight can raise Understanding.
 
 Welcome to `Fisodd </post/f-is-odd/>`__.
 

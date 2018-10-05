@@ -529,8 +529,8 @@ for a fixed-width font consistent with the base font.
 Epilogue
 ********
 
-Many thanks go to Edward Tufte for leading the way with his work.
-And without the fine work of Dave Liepmann and his Tufte CSS project
+Many thanks go to Edward Tufte for showing the way with his work.
+And without the great efforts of Dave Liepmann and his Tufte CSS project
 we would not have known even where to begin.
 Any problems with this material
 stem from failures in my implementation

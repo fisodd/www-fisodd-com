@@ -88,7 +88,7 @@ This site, and the B-side theme, takes advantage of Hugo's
 support for `reStructuredText <http://docutils.sourceforge.net/rst.html>`__.
 While still a plaintext markup, reStructuredText is a more mature and robust
 solution designed to be able to handle complex documentation publication needs.
-For a taste, take a look at the `Tufte example </demo/tufte/>`__.
+For a taste, take a look at the `Tufte example </post/tufte/>`__.
 
 .. |--| unicode:: U+2013   .. en dash
 
