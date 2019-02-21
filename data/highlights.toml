@@ -1,7 +1,7 @@
 
 [[items]]
    name = "CSView"
-   path = "/repo/csview/"
+   path = "/code/csview/"
    desc = "A web-app to view CSV content; dynamic tables, interactive charts."
    date = "2018-09-02"
 
@@ -13,7 +13,7 @@
 
 [[items]]
    name = "B-side Theme for Hugo"
-   path = "/repo/b-side/"
+   path = "/code/b-side/"
    desc = "A Tufte-inspired theme for Hugo using reStructuredText to support margin notes and other features."
    date = "2018-05-30"
 
