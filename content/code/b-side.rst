@@ -14,120 +14,82 @@ Hugo B-side
 .. sidebar:: Demo
    :class: titleless
 
-   Try out the
-   `B-side live demo <https://hugo-b-side-demo.netlify.com/>`__.
+   .. image:: b-side-badge.png
+      :target: https://hugo-b-side-demo.netlify.com/
 
-A theme for `Hugo <https://gohugo.io/>`__
+Hugo B-side is a theme for `Hugo <https://gohugo.io/>`__
 using
 `reStructuredText <http://docutils.sourceforge.net/rst.html>`__
-markup to produce clean column-and-sidenotes article postings.
-Full information in the `repository at Github <https://github.com/fisodd/hugo-b-side>`__.
+markup to produce a clean column-and-sidenotes style
+that follows many of the design ideas that have flowed from
+`Edward Tufte's <https://www.edwardtufte.com/tufte/>`__ work.
+This website is implemented using this B-side theme.
 
-Features
-********
-
-- Responsive 2-column page layout (scales from 300 to 1300 pixels wide)
-- Supports reStructuredText markup features
-
-Including
-
-- `Images <https://hugo-b-side-demo.netlify.com/post/using-bside/#images>`__ and `figures <https://hugo-b-side-demo.netlify.com/post/tufte/#figures>`__
-
-- `Sidenotes <https://hugo-b-side-demo.netlify.com/post/tufte/#sidenotes>`__ and `citations <https://hugo-b-side-demo.netlify.com/post/hugo-and-rest/#citations>`__
-
-- `Pull-quotes <https://hugo-b-side-demo.netlify.com/post/hugo-and-rest/#pullquotes>`__ and `epigraphs <https://hugo-b-side-demo.netlify.com/post/tufte/#epigraphs>`__
-
-- `Sidebars <https://hugo-b-side-demo.netlify.com/post/using-bside/#sidebars>`__
-
-- `Admonitions <https://hugo-b-side-demo.netlify.com/post/using-bside/#admonitions>`__ and topics, notably including topics containing the `table of contents <https://hugo-b-side-demo.netlify.com/post/using-bside/#contents>`__
-
-- Support for `inline math <https://hugo-b-side-demo.netlify.com/post/using-bside/#math>`__ and `code directives <https://hugo-b-side-demo.netlify.com/post/tufte/#code>`__
-
-- `Tables <https://hugo-b-side-demo.netlify.com/post/using-bside/#tables>`__ including all forms of reStructuredText alternative table markup: `list-tables <http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`__ `field lists <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#field-lists>`__ even `bibliographic fields <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#bibliographic-fields>`__
-
-With
-
-- The ability to place any of these elements in a sidebar
-  that runs the length of the page.
-
-All of these features and some more are demonstrated in
-`the live demo <https://hugo-b-side-demo.netlify.com/>`__
-
-.. figure:: https://github.com/fisodd/hugo-b-side/raw/master/images/tn.png
-   :class: fullwidth
-
-   Screenshot of B-side
+Full information about the theme can be found in the
+`repository at Github <https://github.com/fisodd/hugo-b-side>`__.
+A live demonstration site with more information about
+features and techniques is
+`available <https://hugo-b-side-demo.netlify.com/>`__.
 
 
-Installation
-************
+.. sidebar:: B-side Features
 
-Installation is much like any other Hugo theme.
+   - Responsive 2-column page layout (scales from 300 to 1300 pixels wide)
+   - Supports all reStructuredText markup features
 
-Use of the reStructuredText features will require the installation
-of Docutils (and Pygments for code highlighting), but Hugo automatically
-recognizes ReST files and will call these packages if installed.
+   Including
 
+   - `Images <https://hugo-b-side-demo.netlify.com/post/using-bside/#images>`__ and `figures <https://hugo-b-side-demo.netlify.com/post/tufte/#figures>`__
 
-Getting Started
----------------
+   - `Sidenotes <https://hugo-b-side-demo.netlify.com/post/tufte/#sidenotes>`__ and `citations <https://hugo-b-side-demo.netlify.com/post/hugo-and-rest/#citations>`__
 
-Inside the folder of your Hugo site run::
+   - `Pull-quotes <https://hugo-b-side-demo.netlify.com/post/hugo-and-rest/#pullquotes>`__ and `epigraphs <https://hugo-b-side-demo.netlify.com/post/tufte/#epigraphs>`__
 
-    $ cd themes
-    $ git clone https://github.com/fisodd/hugo-b-side.git
+   - `Sidebars <https://hugo-b-side-demo.netlify.com/post/using-bside/#sidebars>`__
 
-For more information read
-`install and use themes <https://gohugo.io/themes/installing-and-using-themes/>`__
-or begin with Hugo's
-`get started <//gohugo.io/overview/installing/>`__ help page.
+   - `Admonitions <https://hugo-b-side-demo.netlify.com/post/using-bside/#admonitions>`__ and topics, notably including topics containing the `table of contents <https://hugo-b-side-demo.netlify.com/post/using-bside/#contents>`__
 
+   - Support for `inline math <https://hugo-b-side-demo.netlify.com/post/using-bside/#math>`__ and `code directives <https://hugo-b-side-demo.netlify.com/post/tufte/#code>`__
 
-The Config File
----------------
+   - `Tables <https://hugo-b-side-demo.netlify.com/post/using-bside/#tables>`__ including all forms of reStructuredText alternative table markup: `list-tables <http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`__ `field lists <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#field-lists>`__ even `bibliographic fields <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#bibliographic-fields>`__
 
-Inside the
-`exampleSite <https://github.com/fisodd/hugo-b-side/tree/master/exampleSite>`__
-folder of this theme, there is a file called
-`config.toml <https://github.com/fisodd/hugo-b-side/blob/master/exampleSite/config.toml>`__.
-Use this configuration as an example,
-and modify to suit your needs.
+   With
+
+   - The ability to place any of these elements in a sidebar
+     that runs the full length of the page.
+
+   All of these features and some more are demonstrated in
+   `the live demo <https://hugo-b-side-demo.netlify.com/>`__
 
 
-Create Your Content as ReST Files
----------------------------------
+Goals
+*****
 
-Create a piece of content with ".rst" as the suffix.
+The intent of Hugo B-side is to provide a straight-forward method
+for authoring content that takes advantage of Tufte's teachings;
+clean, effective, with intelligent use of space.
 
-example::
+The implementation seeks to take full advantage of reStructuredText
+to enable many of Tufte's ideas in simple "markdown" without the
+need for codewords or other complications.  reStructuredText's base
+definitions already support many important features: notes and
+citations, quotes and epigraphs, well featured sidebars,
+simple and complex tables, code displayes,
+as well as inline math notations without calling out to MathJax.
 
-    $ hugo new content/post/first-post.rst
+B-side was also implemented to take advantage of Hugo's flexibility.
+For example, use of Hugo's page type variable allows for
+different layout options
+(e.g. one wide single column instead of the default main-plus-side
+column layout).
 
-Note: Hugo recognizes files ending with a ".rst" suffix as
-`reStructuredText <http://docutils.sourceforge.net/rst.html>`__
-and will call out to the `docutils <http://docutils.sourceforge.net/>`__
-python package to process these files.
-
-
-See the Results
----------------
-
-In order to see your site in action, run Hugo's built-in local server.
-
-::
-
-    $ hugo server
-
-Now enter ``localhost:1313``
-in the address bar of your browser.
-
-
-License
-*******
-
-This theme is released under the MIT License.
-The specifics can be found within the
-`license file <https://github.com/fisodd/hugo-b-side/blob/master/LICENSE>`__
+Finally, the underlying CSS was crafted to provide responsive
+display for all reStructuredText markup and directives,
+specifically both tables as well as lists can have alternative
+views that are tailored for narrow displays.
+Additionally, the CSS has definitions that allow options to
+customize the display to suit Tuftesque tastes, e.g. a "bulletless"
+class for lists.
 
 
 Recognition
