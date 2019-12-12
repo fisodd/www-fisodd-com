@@ -14,13 +14,16 @@ Alexander Carlton
 .. epigraph::
 
    Excited to find useful news where others may only see heaps of data,
-   even better when creating the right visualization allows others
+   but even better is to create a visualization which allows others
    to quickly appreciate the results and understand the effects.
 
 For more, see
 `my resume </work/cv/AlexanderCarlton_DataAnalystPerformanceDeveloper.pdf>`__
 or
 `my LinkedIn profile <https://www.linkedin.com/in/AlexanderCarlton>`__.
+But basically, I've been lucky enough to have been in
+`the right places at the right times </post/right-place>`__.
+
 
 Some projects are available at
 `GitHub <https://www.github.com/fisodd>`__.

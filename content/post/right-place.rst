@@ -14,12 +14,12 @@ Right Place, Right Time
 #######################
 
 Fortunate to be at the right place at the right time,
-I have been an active participant in, or at least have a front row seat for,
-many of the most dramatic transformations in computing.
+I have been an active participant in, or at least had a front row seat for,
+some of the most dramatic transformations in computing.
 Many of these transformations have shown some similar attributes,
 notably the importance of people willing to question what is really valuable
-|--| and who are willing to dig for the hard data necessary
-to induce others to question their existing assumptions.
+|--| especially those who are willing to dig for the hard data necessary
+to induce others to question their assumptions and adjust their biases.
 
 
 Dawn of Personal Computing: What and Why?
@@ -34,7 +34,7 @@ Dawn of Personal Computing: What and Why?
    `marketing brochure <Wang.Model2200.1973.102646199.pdf>`__
    provides a good overview, but for one illustrative example of
    this system's quirks note the keyboard layout
-   (shown on page 6 of the brochure).
+   (shown on page 6 of the brochure linked above).
 
    .. figure:: Wang2200-terminal.jpg
       :width: 100%
@@ -62,19 +62,23 @@ got us all to go through the steps to display crude sinewaves and
 other geometric shapes,
 and work through other extensions of our "new math" curriculum.
 But for us kids, the answer was obvious: games!
-The few cassette tapes we had with some BASIC games were all very popular,
-and even a simple animated horse race game that I wrote myself
-got banned during school hours
-because of distracting too many students during class.
+The system came with a few cassette tapes including some BASIC games,
+and those were very popular.
+My first taste of the power of programming was when
+I hacked together something that could overwrite text on the screen
+and soon had made a game with several animated "horses"
+running races across the screen |--|
+that promptly got banned during school hours
+because we were distracting too many students during class times.
 
 A few years later my fancy high-school got a PDP-11 minicomputer,
 and the experience was entirely different |--| a stereotypical example
-of isolation.  That system was set up in the basement, in a locked room,
-with no access without first earning a science teacher's approval.
+of tech isolation.  That system was set up in the basement, in a locked room,
+no access allowed without first earning a science teacher's approval.
 Only a very small number of students wanted to have anything to do
 with that system, and even though I could already code and already
 had some idea of what that system could do
-I saw no benefit to working on anything that isolated.
+I saw no benefit to spending my time on anything that isolated.
 The power of any tool is limited by its degree of separation
 from its point of leverage.
 
@@ -98,33 +102,38 @@ from its point of leverage.
    `Archive.org <https://archive.org/>`__.
 
 In college, my roommate had been loaned an Apple II by his father,
-and, being much more of a night-owl than my roommate,
-I managed to talk my way into using that computer after he went to bed.
+and, being the only night-owl in our apartment,
+I managed to talk my way into using that computer after my roommate went to bed.
 Starting with `RobotWar <https://en.wikipedia.org/wiki/RobotWar>`__
 and eventually making heavy use of the seriously detailed early Apple manuals,
 I was able to recover my early coding skills
-and even teach myself how to code in 6502 Assembly
-completing a variety of little visual games
+and even teach myself how to code in 6502 Assembly,
+eventually completing a variety of little visual games
 pushing the limits of that 16 color graphics system.
 
 My roommate's father had very high hopes for what these personal systems
-could do for small businesses like his, and I had to admit working with
-VisiCalc was a breakthrough moment for appreciating how these systems
-would change business computing.
-Even in its most rudimentary form, there was undeniable power with VisiCalc's
-flexible tables that recalculated automatically and immediately.
+could do for small businesses like his, especially with tools like
+`VisiCalc <https://en.wikipedia.org/wiki/VisiCalc>`__.
+Working with VisiCalc was a breakthrough moment
+for appreciating how these systems would change business computing.
+Even in its most rudimentary form,
+there was undeniable power with VisiCalc's flexible tables,
+and watching every value recalculate automatically and immediately
+was impressibly close to magic.
 Decades later, as I work with data visualizations, I still can hear
 this man's wish: "If you guys could just write a good charting program that
 could work with this stuff..."
 
 At the time the circle of coders for these personal systems
-was rather small, and even in my university's backwaters
-for the cost of a few beers I got a chance to hear Richard Garriott tell
-his stories about the challenges creating the early Ultima games.
+was rather small, and even way off in my university's backwaters
+I got a chance at the cost of only a few beers to hear Richard Garriott
+tell stories about the challenges creating the early
+`Ultima <https://en.wikipedia.org/wiki/Ultima_(series)>`__ games.
 And even then, while it was clear that the little systems could
 change the way business worked, it was even more clear that
 there was an even larger audience beyond the business world that was
-eager for the ever more immersive experiences that computer games could offer.
+eager for the ever more immersive experiences that these personal computers
+could offer.
 
 .. sidebar:: Ray Montgomery
 
@@ -139,45 +148,51 @@ eager for the ever more immersive experiences that computer games could offer.
    .. figure:: RayMontgomery-ray_obit_large.jpg
       :width: 100%
 
-      Source: `CYOA <https://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
+      Ray Montgomery, source: `CYOA <https://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
 
 Bridging between worlds as an English Major spending inordinate amounts
 of time in the CS department,
 I did manage some very interesting opportunities, which later became
-`the genesis of this site's name </post/f-is-odd>`__.
+`the genesis of this website's name </post/f-is-odd>`__.
 Ray Montgomery, a local author and early coder,
 was at the leading edge of interactive fiction,
 and working with him to squeeze book-length text and some graphical mini-games
 to fit within the limits of
 `early Atari consoles <https://en.wikipedia.org/wiki/Atari_2600>`__
-was an excellent introduction to the decision processes
+was an excellent introduction to practical computing.
+A key lesson came from supporting the decision processes
 for how to successfully determine what to keep and what to drop
-in order to satisfy a specific target audience.
-Computers could do cool tricks, but in the end the only parts that are
+in order to satisfy the specific target audience.
+Computers can do lots of cool tricks, but in the end the only ones that are
 necessary are those that are serving the overall experience |--|
-judicial editing is as important for any application on a computer
+judicial editing is as important for every application on a computer
 as it is for any published text.
 
 
 Simpler is Better, Early Unix and RISC
 ######################################
 
-Halfway through my years in college, the Computer Science department
-broke away from the main core of the computing resources on campus and
-switched their focus from FORTRAN, COBOL, and Pascal over to a new curriculum
-focused on new paradigms such as Unix, RISC architecture,
-and open source software.
+Halfway through my years in college,
+there was a serious rift that ripped through parts of our engineering faculty.
+Several professors abruptly left the school,
+and eventually the remaining Computer Science department broke away
+from the main core of the computing resources on campus.
+The new department switched their focus from FORTRAN, COBOL, and Pascal
+over to a new curriculum focused on new paradigms such as
+Unix, RISC architecture, and open source software.
 This break was massively disruptive to the engineering college,
 but the resulting chaos provided me just the break I needed
-to go from an English major taking CS classes and skip through
+to go from being an English major taking CS classes and skip through
 a lot of prerequisites and waitlists to become not only a full-time CS student
 but also a teaching assistant for some of the new higher level CS courses.
-Before long, instead of just being a user of the common timesharing systems,
-I had earned root login privileges on PDP-11s and VAXes running BSD Unix
-and I jumped at an offer to stay for a masters degree
-which offered me the opportunity to get deep hands-on experience
-with source-code access across what proved to be a very wide range
-of single and multi user systems
+
+Before long, instead of just being yet another undergraduate programmer
+seeking a terminal for the big timesharing systems,
+I had earned root login privileges and a key to a new machine-room filled with
+a variety of PDP-11s and VAXes and other systems all running BSD Unix.
+Chaos lead to opportunity, and soon I had an offer to stay for a masters degree
+giving me deep hands-on, source-level experience
+across what proved to be a very wide range of single and multi user systems
 running several variants of BSD and System V Unix.
 
 .. sidebar:: RISC vs CISC
@@ -201,7 +216,7 @@ running several variants of BSD and System V Unix.
    .. figure:: us__en_us__ibm100__risc_architecture__john_cocke__750x990.jpg
       :width: 100%
 
-      Source: `IBM <http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/risc/>`__
+      John Cocke, source: `IBM <http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/risc/>`__
 
 More interestingly, my work landed right in the middle of the RISC-vs-CISC
 arguments.  While I had studied RISC architectures in school,
@@ -241,31 +256,33 @@ deliver features that our customers were willing to pay extra to have right now.
 
 By the time the
 `"dot com bubble" <https://en.wikipedia.org/wiki/Dot-com_bubble>`__
-began to grow, what had been a relatively small group of people
+began to heat up, what had been a relatively small group of people
 was now a multi-billion dollar business,
 and I was managing a team of engineers working on web-server performance
 and analysis of new web technologies.
 Our base work was stressing systems and developing tests to highlight
 how our servers could scale faster than our customer's desired growth plans.
-The bonus work was projects assigned by our executives to evaluate a wide
-variety of web technology that were being considered as potential
-acquisitions or future competition |--| a fascinating stream of
+Our bonus work was projects assigned by the company executives
+to evaluate a wide variety of web technologies
+that were being debated in the boardroom, either as potential
+acquisitions or as expected competition |--| a fascinating stream of
 wild ideas and even wilder expectations.
 In a period where it seemed like everyone was being rewarded
 for attempting an even more outlandish claim than the one before,
-my team was prospering precisely because we had earned a reputation
-for identifying flaws and providing well reasoned criticisms.
+my team was prospering precisely because we had earned a solid reputation
+for honestly identifying flaws and providing well reasoned criticisms.
 
 
 Efficiency Rules
 ################
 
 Once the "dot com" bubble burst, the industry's attention shifted
-from 'biggest' and 'best' over to costs and efficiency.
+from hyping claims of 'biggest' and 'best' over to managing costs
+and improving efficiency.
 And here again I ended up with a front-row seat to the next big transformation,
 this time helping commodity servers (high volume, low cost, x86-based
 servers) showcase their value proposition versus the existing minicomputers.
-Where we had been proving HP/UX could overtake the proprietary systems,
+Where we had been proving standard Unix could overtake the proprietary systems,
 now I was involved in showing that Linux and Microsoft's Windows Server were
 just as capable and a whole lot cheaper |--| matching the
 performance results was easy, the hard work was in stripping marketing claims
@@ -274,17 +291,17 @@ Once again, we were successful in proving the underdog could win,
 and again the marketplace transformed the industry.
 
 By the time that commodity servers had taken the drama out of the
-competitive performance arena, I was offered a chance to move to Intel
+competitive performance arena, I took a chance to leave HP and go to Intel
 analyzing and measuring an entirely different transformation,
 the mobility revolution.
-My transition to this space was with laptop PCs, becoming part of the
-team working towards the vision of "all day computing", figuring out the
+My transition to this space was with laptop PCs, part of the
+team working towards the vision of "all day computing" |--| figuring out the
 steps to move from heavy laptop PCs that maybe lasted a few hours between
 charges and instead deliver thin and light notebooks that could last all
 day on a single charge.  The key was to put aside the grand statements
 from the many participants and instead establish clear and verifiable
 measurements of comparable battery life experience, and then working to
-track everyone's progress towards the overall goals.
+track everyone's progress towards those overall goals.
 
 .. sidebar:: Crossover Point
 
@@ -303,13 +320,13 @@ Even as the market delivered this vision
 with new laptops only a third of the weight
 and yet still more than twice the battery life,
 I had already embarked on a new assignment:
-evaluating when, where, and how smartphones would threaten PCs.
+evaluating when, where, and how smartphones would threaten laptops.
 Starting alone, creating a new lab out of a basement storeroom,
 we built a team that would soon include a dozen people directly measuring
 all sorts of phone and tablet devices, working with dozens of partners
 across the country to generate some of the most reactive reports
 to be presented to the executive team.  Our conclusions were controversial
-but having done the work to make the measurements both robust and
+but because we had done the work to make our measurements both robust and
 representative, when the shouting started instead of the usual
 shoot-the-messenger response
 our messages were used to drive change across the company.
@@ -323,7 +340,7 @@ then it will not take long before even the strongest products
 suffer from the changing tides.
 The key, as always, is having a good understanding
 of the strengths of one's products
-and at least as good understanding regarding
+and at least as good understanding of 
 what the market is willing to pay for.
 
 

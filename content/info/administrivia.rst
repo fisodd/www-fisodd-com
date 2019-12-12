@@ -35,7 +35,7 @@ it was selected for this site
 because of its broad support and small footprint |--| a pair of features
 that together make a compelling argument.
 
-.. figure:: https://assets-cdn.github.com/images/modules/logos_page/Octocat.png
+.. figure:: https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png
    :align: right
    :width: 60%
 
