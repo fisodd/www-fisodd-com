@@ -19,10 +19,10 @@ the name comes from the observation that
    `Hexadecimal <https://en.wikipedia.org/wiki/Hexadecimal>`__,
    a counting system that has 16 rather than usual 10 digits.
 
-For many the idea that 'F' is a number just seems odd (as in strange),
+For many the idea that 'F' is a number just seems odd (as in *strange*),
 but for those who spend too much time working with the lower level
 interfaces in computing, 'F' is a perfectly valid number
-representing the value 15\ [*]_, which is odd (as in not even)
+representing the value 15\ [*]_, which is odd (as in *not even*)
 
 This author started using the phrase "F is odd"
 back when he was a dual-major in college,
