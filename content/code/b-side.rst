@@ -20,7 +20,8 @@ Hugo B-side
 A theme for `Hugo <https://gohugo.io/>`__
 using
 `reStructuredText <http://docutils.sourceforge.net/rst.html>`__
-markup to produce clean column-and-sidenotes article postings
+markup to produce clean column-and-sidenotes article postings.
+Full information in the `repository at Github <https://github.com/fisodd/hugo-b-side>`__.
 
 Features
 ********
@@ -117,7 +118,7 @@ In order to see your site in action, run Hugo's built-in local server.
 
     $ hugo server
 
-Now enter `localhost:1313 <localhost:1313>`__
+Now enter ``localhost:1313``
 in the address bar of your browser.
 
 
@@ -125,14 +126,14 @@ License
 *******
 
 This theme is released under the MIT License.
-
-The specifics can be found within the `License </LICENSE>`__
+The specifics can be found within the
+`license file <https://github.com/fisodd/hugo-b-side/blob/master/LICENSE>`__
 
 
 Recognition
 ***********
 
-The layout and style of this theme was inspired by
+The layout and style of this theme was originally inspired by
 `Tufte CSS <https://edwardtufte.github.io/tufte-css/>`__
 and the other projects following the ideas of Edward Tufte.
 
