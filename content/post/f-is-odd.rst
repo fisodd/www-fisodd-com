@@ -22,12 +22,12 @@ the name comes from the observation that
 For many the idea that 'F' is a number just seems odd (as in strange),
 but for those who spend too much time working with the lower level
 interfaces in computing, 'F' is a perfectly valid number
-representing the value 15\ [*]_, which is odd (not even)
+representing the value 15\ [*]_, which is odd (as in not even)
 
 This author started using the phrase "F is odd"
-back as a dual-major in college,
+back when he was a dual-major in college,
 trying to explain to incredulous fellow students and faculty
-in the English department that it was not a completely crazy idea
+in the English department why it was not a completely crazy idea
 to spend so much time earning a second degree in Computer Science.
 
 .. [*] `Ray Montgomery <http://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
@@ -69,7 +69,7 @@ After days of checking hex codes and thinking in hexadecimal math,
 life back in the real world occasionally would be awkward.
 It is bad enough when roommates laugh over breakfast
 when you talk as if there are 'C' eggs in a dozen.
-But things can get a bit tricky at the local store
+But things can get a bit tricky at the local market
 when you act as if a dime is worth 16 cents.
 Explaining how to go between the two counting systems
 quickly became a necessary skill.

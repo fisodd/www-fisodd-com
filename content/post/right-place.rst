@@ -21,6 +21,11 @@ notably the importance of people willing to question what is really valuable
 |--| especially those who are willing to dig for the hard data necessary
 to induce others to question their assumptions and adjust their biases.
 
+Today's world is implemented in the current technology and terminology;
+nevertheless, sometimes someone with an understanding of history
+can be useful to understand how we got where we are,
+and to point out some of the more promising ways forward.
+
 
 Dawn of Personal Computing: What and Why?
 #########################################
@@ -66,12 +71,12 @@ The system came with a few cassette tapes including some BASIC games,
 and those were very popular.
 My first taste of the power of programming was when
 I hacked together something that could overwrite text on the screen
-and soon had made a game with several animated "horses"
+which quickly evolved into a game with several animated "horses"
 running races across the screen |--|
-that promptly got banned during school hours
-because we were distracting too many students during class times.
+and promptly got banned during school hours
+because the game was distracting too many students during class times.
 
-A few years later my fancy high-school got a PDP-11 minicomputer,
+A few years later my upscale high-school was gifted a PDP-11 minicomputer,
 and the experience was entirely different |--| a stereotypical example
 of tech isolation.  That system was set up in the basement, in a locked room,
 no access allowed without first earning a science teacher's approval.
@@ -125,9 +130,10 @@ this man's wish: "If you guys could just write a good charting program that
 could work with this stuff..."
 
 At the time the circle of coders for these personal systems
-was rather small, and even way off in my university's backwaters
-I got a chance at the cost of only a few beers to hear Richard Garriott
-tell stories about the challenges creating the early
+was rather small (even way off in my university's backwaters)
+and for nothing more than the cost of only a few beers
+my friends and I got the chance to hear Richard Garriott
+tell stories about all the challenges creating the early
 `Ultima <https://en.wikipedia.org/wiki/Ultima_(series)>`__ games.
 And even then, while it was clear that the little systems could
 change the way business worked, it was even more clear that
@@ -152,15 +158,16 @@ could offer.
 
 Bridging between worlds as an English Major spending inordinate amounts
 of time in the CS department,
-I did manage some very interesting opportunities, which later became
-`the genesis of this website's name </post/f-is-odd>`__.
+I fell into an interesting opportunity (which later became
+`the genesis of this website's name </post/f-is-odd>`__).
 Ray Montgomery, a local author and early coder,
 was at the leading edge of interactive fiction,
-and working with him to squeeze book-length text and some graphical mini-games
+was working to squeeze his book-length text and some graphical mini-games
 to fit within the limits of
-`early Atari consoles <https://en.wikipedia.org/wiki/Atari_2600>`__
-was an excellent introduction to practical computing.
-A key lesson came from supporting the decision processes
+`early Atari consoles <https://en.wikipedia.org/wiki/Atari_2600>`__.
+Running up against deadlines, he hired me to help finish and test the project,
+and I found myself deep in an excellent introduction to practical computing.
+Key lessons came from supporting the decision processes
 for how to successfully determine what to keep and what to drop
 in order to satisfy the specific target audience.
 Computers can do lots of cool tricks, but in the end the only ones that are
@@ -178,19 +185,20 @@ Several professors abruptly left the school,
 and eventually the remaining Computer Science department broke away
 from the main core of the computing resources on campus.
 The new department switched their focus from FORTRAN, COBOL, and Pascal
-over to a new curriculum focused on new paradigms such as
+over to a new curriculum focused on emerging paradigms such as
 Unix, RISC architecture, and open source software.
 This break was massively disruptive to the engineering college,
 but the resulting chaos provided me just the break I needed
-to go from being an English major taking CS classes and skip through
+to go from being an English major taking some CS classes and skip past
 a lot of prerequisites and waitlists to become not only a full-time CS student
 but also a teaching assistant for some of the new higher level CS courses.
 
 Before long, instead of just being yet another undergraduate programmer
-seeking a terminal for the big timesharing systems,
+seeking a terminal on the big timesharing systems,
 I had earned root login privileges and a key to a new machine-room filled with
 a variety of PDP-11s and VAXes and other systems all running BSD Unix.
-Chaos lead to opportunity, and soon I had an offer to stay for a masters degree
+Chaos had lead to opportunity,
+including an offer to stay for a masters degree
 giving me deep hands-on, source-level experience
 across what proved to be a very wide range of single and multi user systems
 running several variants of BSD and System V Unix.
@@ -225,29 +233,32 @@ originally joining their core DBMS team and then the HP/UX kernel team
 before settling into what became a lead role
 in the system performance community.
 At HP I was actively involved in a series of David-takes-on-Goliath battles
-that was reshaping computing.  The battle that attracted me to HP was the
-RISC-vs-CISC design argument, and HP's PA-RISC proved to be every bit as
-interesting as I had hoped, especially the out-of-order execution capabilities
+that were reshaping computing.  The first battle that attracted me to HP
+was the RISC-vs-CISC design argument,
+and HP's PA-RISC proved to be every bit as interesting as I had hoped,
+especially the out-of-order execution capabilities
 which echoed a few of the DataFlow architecture ideas my advisor had
-discussed.
+been championing.
 
-Soon I found myself involved in the arena of competitive performance
+But soon I found myself involved in the arena of competitive performance
 where the challenge was not just RISC versus CISC,
 but included taking on mainframe computers and proving that minicomputers
 could win business in core business computing accounts.
 Here I was embedded right in the midst of the arguments between design goals
 versus pragmatic delivery, and our business flourished because we did have
-a visionary architecture but we also had the disciplined focus to
+a visionary architecture but importantly we also had the disciplined focus to
 deliver features that our customers were willing to pay extra to have right now.
 
 .. sidebar:: Long days, wide arguments
 
    Our work in the performance teams was dependent upon the depth
    of our relationships across many facets of product development.
-   It was not uncommon for a day to include
-   a debate about optimal cache organizations at one end
-   and at the other end a discussion of whether recently achieved
-   marketing claims warranted increased advertising budgets
+   It was not uncommon for a day to start at one end with
+   a debate about optimal cache organizations followed by debugging
+   copy-avoidance changes before sitting down to find ways to budget another
+   hundred load generators ahead of an evening  presentation regarding
+   how much to rewrite the advertising plans because of recent performance
+   breakthroughs
    |--| a very tight loop between the technical details of implementation
    and the realities of what were the differences that customers would pay for.
    The range of materials in these sessions was mind-stretching,
@@ -256,16 +267,16 @@ deliver features that our customers were willing to pay extra to have right now.
 
 By the time the
 `"dot com bubble" <https://en.wikipedia.org/wiki/Dot-com_bubble>`__
-began to heat up, what had been a relatively small group of people
+began to heat up, what had been a relatively small skunkworks
 was now a multi-billion dollar business,
 and I was managing a team of engineers working on web-server performance
 and analysis of new web technologies.
 Our base work was stressing systems and developing tests to highlight
-how our servers could scale faster than our customer's desired growth plans.
-Our bonus work was projects assigned by the company executives
+how our servers could scale faster than our customer's promised growth plans.
+Our bonus work came from projects assigned by the company executives
 to evaluate a wide variety of web technologies
-that were being debated in the boardroom, either as potential
-acquisitions or as expected competition |--| a fascinating stream of
+that were being debated in the boardroom, either pitched as potential
+acquisitions or tracked as expected competition |--| a fascinating stream of
 wild ideas and even wilder expectations.
 In a period where it seemed like everyone was being rewarded
 for attempting an even more outlandish claim than the one before,
@@ -283,12 +294,13 @@ And here again I ended up with a front-row seat to the next big transformation,
 this time helping commodity servers (high volume, low cost, x86-based
 servers) showcase their value proposition versus the existing minicomputers.
 Where we had been proving standard Unix could overtake the proprietary systems,
-now I was involved in showing that Linux and Microsoft's Windows Server were
-just as capable and a whole lot cheaper |--| matching the
-performance results was easy, the hard work was in stripping marketing claims
+now now our challenge was showing that Linux and Microsoft's Windows Server
+were just as capable and a whole lot cheaper |--| matching the performance
+results was relatively easy, the harder task was stripping marketing claims
 down to bare facts and then reassembling a clearer picture of the real costs.
-Once again, we were successful in proving the underdog could win,
-and again the marketplace transformed the industry.
+Once again, with tactical analysis and robust engineering,
+we were successful in proving the underdog could win,
+and again our marketplace transformed the industry.
 
 By the time that commodity servers had taken the drama out of the
 competitive performance arena, I took a chance to leave HP and go to Intel
@@ -326,10 +338,10 @@ we built a team that would soon include a dozen people directly measuring
 all sorts of phone and tablet devices, working with dozens of partners
 across the country to generate some of the most reactive reports
 to be presented to the executive team.  Our conclusions were controversial
-but because we had done the work to make our measurements both robust and
-representative, when the shouting started instead of the usual
-shoot-the-messenger response
-our messages were used to drive change across the company.
+but we had done the work to make our measurements both robust and
+representative, so when the boardroom arguments erupted
+instead of the usual shoot-the-messenger response
+our data and our methods were used to drive change across the company.
 
 A common theme was that very few customers
 ever care about technology for technology's sake.
@@ -356,7 +368,7 @@ what is really necessary to address the problem at hand.
 
 One of the few constants through all of these transformations has
 been the value of those who are willing to provide clear and steadfast
-advice in spite of pressure to go along and accept the current trends.
+advice in spite of pressure to just ride the current trends.
 Management may not immediately appreciate the push-back, but executive
 decisions will only be as good as the information available at the time,
 and if key people are afraid to speak up
@@ -366,6 +378,6 @@ To be successful in these situations takes a lot of preparation,
 and often a bit of good fortune,
 but all these situations start with a willingness to stand up
 and draw attention to some well founded data
-that reveals what others may not want to see.
+that reveals what others may not want but need to see.
 
 .. |--| unicode::  U+2013  .. en dash

@@ -12,8 +12,10 @@ type = "wide"
 
 Welcome to `Fisodd </post/f-is-odd/>`__.
 
-A home for `Alexander Carlton's </info/alexander>`__ professional work,
-mostly Data Visualizations and other Data Science related activities.
+A home for some of `Alexander Carlton's </info/alexander>`__
+ongoing professional work;
+projects in website implementations as well as
+data visualizations and other data science related activities.
 
 Much of the material here is to expand upon
 `the author's repositories at Github <https://github.com/fisodd>`__.
@@ -24,3 +26,5 @@ Some recent updates are listed below.
 All the content, old and new,
 can be found within the sections listed in the menu at top of the page.
 
+Questions, comments, or project ideas are all
+`welcome <mailto:AlexanderCarlton@fisodd.com>`__.

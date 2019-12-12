@@ -14,8 +14,8 @@ Alexander Carlton
 .. epigraph::
 
    Excited to find useful news where others may only see heaps of data,
-   but even better is to create a visualization which allows others
-   to quickly appreciate the results and understand the effects.
+   eager to develop visualizations that allow others to quickly
+   understand results and appreciate effects.
 
 For more, see
 `my resume </work/cv/AlexanderCarlton_DataAnalystPerformanceDeveloper.pdf>`__
