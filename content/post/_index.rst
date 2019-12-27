@@ -9,6 +9,6 @@ type = "wide"
 Posts
 #####
 
-A collection of articles not necessarily related directly
+A few articles and opinions not necessarily related directly
 to any of the projects or repositories described on this server.
 

@@ -6,14 +6,14 @@
    date = "2018-09-02"
 
 [[items]]
-   name = "Right Place, Right Time"
-   path = "/post/right-place/"
-   desc = "A review of lessons learned from the experiences earned."
-   date = "2018-07-28"
-
-[[items]]
    name = "B-side Theme for Hugo"
    path = "/code/b-side/"
    desc = "A Tufte-inspired theme for Hugo using reStructuredText to support margin notes and other features."
    date = "2018-05-30"
+
+[[items]]
+   name = "Right Place, Right Time"
+   path = "/post/right-place/"
+   desc = "Lucky enough to have learned a few lessons along the way."
+   date = "2018-07-28"
 

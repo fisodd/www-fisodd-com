@@ -1,7 +1,7 @@
 ---
 title: "Right Place, Right Time"
 date: 2018-07-28T12:20:41-07:00
-description: "A review of some lessons learned from the experiences earned."
+description: "Lucky enough to have learned a few lessons along the way."
 categories: ["Opinions"]
 tags: ["Wang 2200", "Apple II", "Unix", "RISC", "Dot Com", "smartphones"]
 type: "post"

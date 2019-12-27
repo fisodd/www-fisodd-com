@@ -19,16 +19,16 @@ within a simple markdown system.
 
 Full information about the theme can be found in the
 `repository at Github <https://github.com/fisodd/hugo-restructured>`__.
-A live demonstration site with more information about
-features and techniques is
-`available <https://hugo-restructured-demo.netlify.com/>`__.
+For a live demonstration with more information about
+features and techniques visit
+`the live demo site <https://hugo-restructured-demo.netlify.com/>`__.
 
 
 Examples
 ********
 
-A couple of links to example pages and then one screenshot
-that demonstrate the capabilities of Hugo Restructured.
+For a quick taste, listed here are a couple of links to example pages,
+and then one screenshot that demonstrate the appearance of Hugo Restructured.
 
 .. class:: bulletless
 
@@ -48,11 +48,13 @@ A Note On Styling
 -----------------
 
 The default configuration for Hugo Restructured uses gradients in
-shades of red.  This is easily customized to suit each site's style.
+shades of red.  This is easily customized to suit a website's style,
+or tuned to accommodate the needs of a specific page or to differentiate
+between sections of a site.
 
-This theme uses Hugo variables to define a color, or an image, or
+The theme uses Hugo variables to define a color, or an image, or
 a gradient to use for the top-of-page "splash" and the "edge" areas
-exposed when responding to wide screen layouts.
+exposed as the page responds to wide screen layouts.
 See `Page Coloring
 <https://hugo-restructured-demo.netlify.com/post/configuring/#page-coloring>`__.
 

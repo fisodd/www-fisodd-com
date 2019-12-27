@@ -22,7 +22,7 @@ CSView
 
 `CSView <https://github.com/fisodd/csview>`__
 is a Customizable Summary Viewer for CSV content,
-including dynamic tables and responsive charts.
+with support for dynamic tables and responsive charts.
 
 The intent is to provide a quick and easy way
 to get to see what is inside CSV content.
@@ -33,9 +33,10 @@ Live demo: `Use CSView online </work/csview/>`__.
 Rationale
 #########
 
-Maybe you are better organized than I am,
-but sometimes I find myself with way too many different CSV files
-to keep straight which abbreviated filename goes with which case.
+You are probably better organized than I am,
+but perhaps like me, sometimes you may find yourself
+sorting through way too many different CSV files
+unable keep straight which abbreviated filename goes with which case.
 
 .. sidebar:: Chart Shot
    :class: titleless
@@ -49,9 +50,10 @@ Which dataset has the extraneous rows trimmed out?
 Which dataset includes the recently updated data?
 Which dataset was the one where the peak values were notably higher?
 
-Also, what does the data look like if I filter out last week's datapoints?
+Also:
+What does the data look like if we filter out last week's datapoints?
 What is the minimum value of that Nth column?
-Does that minimum change when I filter out last week's datapoints?
+Does that minimum change when we filter out last week's datapoints?
 What are the details for the outlier datapoints?
 
 CSV is easy enough to load into a text editor,
@@ -76,9 +78,11 @@ show full information by hovering over a datapoint,
 and supports a brush feature to zoom in on areas of interest.
 
 CSView is a quick data exploration tool.
-It is not meant for generating presentation materials,
-there are better tools for when fine control of the data and the display
-makes for better looking results.
-However, there are times when a lightweight tool
-is more effective than a full-function system.
+It is not meant for generating presentation materials |--|
+there are obviously much better tools for serious work.
+However, for those times when a lightweight tool
+can be more effective than a full-function system,
+then it can be handy to have a quick CSView.
+
+.. |--| unicode:: U+2013   .. en dash
 

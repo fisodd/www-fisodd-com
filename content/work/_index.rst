@@ -8,6 +8,6 @@ weight: 7
 Works
 #####
 
-The items listed below are independent projects,
+The items listed below are projects and/or experiments
 hosted on this server.
 

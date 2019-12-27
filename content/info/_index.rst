@@ -8,5 +8,6 @@ weight = 1
 Information
 ###########
 
-Web pages about the web stuff that make up this web site.
+Web pages about this website, the author,
+and the tools used to make this work.
 

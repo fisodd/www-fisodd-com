@@ -4,6 +4,7 @@ title = "F Is Odd"
 description = "Fisodd?  It may be pronounced like 'fizz-sod', but the name comes from the observation that 'F' is an odd number."
 categories = [ "Opinions" ]
 tags = [ "hexadecimal" ]
+weight = 1
 
 +++
 
