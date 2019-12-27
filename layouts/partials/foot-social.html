@@ -1,36 +1,36 @@
 {{ $icon_size := "16px" }}
 {{ with .Site.Params.facebook }}
-  <a href="{{ . }}" class="link-transition" title="Facebook link">
+  <a href="{{ . }}" class="link-transition" alt="Facebook link" title="Facebook link">
     {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Params.twitter }}
-  <a href="{{ . }}" class="link-transition" title="Twitter link">
+  <a href="{{ . }}" class="link-transition" alt="Twitter link" title="Twitter link">
     {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Params.instagram }}
-  <a href="{{ . }}" class="link-transition" title="Instagram link">
+  <a href="{{ . }}" class="link-transition" alt="Instagram link" title="Instagram link">
     {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Params.youtube }}
-  <a href="{{ . }}" class="link-transition" title="Youtube link">
+  <a href="{{ . }}" class="link-transition" alt="Youtube link" title="Youtube link">
     {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Params.linkedin }}
-  <a href="{{ . }}" class="link-transition" title="LinkedIn link">
+  <a href="{{ . }}" class="link-transition" alt="LinkedIn link" title="LinkedIn link">
     {{ partial "svg/linkedin.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Params.github }}
-  <a href="{{ . }}" class="link-transition" title="Github link">
+  <a href="{{ . }}" class="link-transition" alt="Github link" title="Github link">
     {{ partial "svg/github.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
 {{ with .Site.Params.email }}
-  <a href="{{ . }}" class="link-transition" title="Email link">
+  <a href="{{ . }}" class="link-transition" alt="Email link" title="Email link">
     {{ partial "svg/email.svg" (dict "size" $icon_size) }}
   </a>
 {{ end }}
