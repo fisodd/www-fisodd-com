@@ -14,7 +14,7 @@ Right Place, Right Time
 #######################
 
 Fortunate to be at the right place at the right time,
-I have been an active participant in, or at least had a front row seat for,
+I have been an active participant in (or at least had a front row seat for)
 some of the most dramatic transformations in computing.
 Many of these transformations have shown some similar attributes,
 notably the importance of people willing to question what is really valuable
@@ -22,8 +22,8 @@ notably the importance of people willing to question what is really valuable
 to induce others to question their assumptions and adjust their biases.
 
 Today's world is implemented in the current technology and terminology;
-nevertheless, sometimes someone with an understanding of history
-can be useful to understand how we got where we are,
+nevertheless, an understanding of history can be useful
+to understand how we got where we are,
 and to point out some of the more promising ways forward.
 
 
@@ -60,18 +60,21 @@ along with a modified typewriter attached that could be used
 to dump out hardcopy, and all the "storage" was on cassette tapes.
 And yet, this system was clearly personal in nature,
 it booted in seconds into an interactive environment,
-and even if the display was small the updates were immediate.
+|--| even if the display was small the updates were immediate,
+and the system was effective.
 
-The question was what to do with this thing?  Our math teacher
-got us all to go through the steps to display crude sinewaves and
-other geometric shapes,
+The question for my school was what to do with this thing? 
+Our math teacher got us all to go through the steps
+to display crude sinewaves and other geometric shapes,
 and work through other extensions of our "new math" curriculum.
-But for us kids, the answer was obvious: games!
+But for us kids, the answer was obvious: *games!*
 The system came with a few cassette tapes including some BASIC games,
 and those were very popular.
 My first taste of the power of programming was when
 I hacked together something that could overwrite text on the screen
 which quickly evolved into a game with several animated "horses"
+(actually character strings using marks
+such as an apostrophe for the head and slashes for the legs)
 running races across the screen |--|
 and promptly got banned during school hours
 because the game was distracting too many students during class times.
@@ -123,7 +126,8 @@ Working with VisiCalc was a breakthrough moment
 for appreciating how these systems would change business computing.
 Even in its most rudimentary form,
 there was undeniable power with VisiCalc's flexible tables,
-and watching every value recalculate automatically and immediately
+and in those days entering one change and
+watching every value recalculate automatically and immediately
 was impressibly close to magic.
 Decades later, as I work with data visualizations, I still can hear
 this man's wish: "If you guys could just write a good charting program that
@@ -157,7 +161,7 @@ could offer.
       Ray Montgomery, source: `CYOA <https://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
 
 Bridging between worlds as an English Major spending inordinate amounts
-of time in the CS department,
+of time in the Computer Science department,
 I fell into an interesting opportunity (which later became
 `the genesis of this website's name </post/f-is-odd>`__).
 Ray Montgomery, a local author and early coder,
@@ -170,8 +174,8 @@ and I found myself deep in an excellent introduction to practical computing.
 Key lessons came from supporting the decision processes
 for how to successfully determine what to keep and what to drop
 in order to satisfy the specific target audience.
-Computers can do lots of cool tricks, but in the end the only ones that are
-necessary are those that are serving the overall experience |--|
+Computers can do lots of cool tricks, but in the end the only important
+tricks are those that are serving the overall experience |--|
 judicial editing is as important for every application on a computer
 as it is for any published text.
 
@@ -180,7 +184,7 @@ Simpler is Better, Early Unix and RISC
 ######################################
 
 Halfway through my years in college,
-there was a serious rift that ripped through parts of our engineering faculty.
+there was a serious rift that tore through parts of our engineering faculty.
 Several professors abruptly left the school,
 and eventually the remaining Computer Science department broke away
 from the main core of the computing resources on campus.
@@ -189,8 +193,9 @@ over to a new curriculum focused on emerging paradigms such as
 Unix, RISC architecture, and open source software.
 This break was massively disruptive to the engineering college,
 but the resulting chaos provided me just the break I needed
-to go from being an English major taking some CS classes and skip past
-a lot of prerequisites and waitlists to become not only a full-time CS student
+to go from being an English major taking some Computer Science classes
+and skip past a lot of prerequisites and waitlists
+to become not only a full-time CS student
 but also a teaching assistant for some of the new higher level CS courses.
 
 Before long, instead of just being yet another undergraduate programmer
@@ -254,9 +259,10 @@ deliver features that our customers were willing to pay extra to have right now.
    Our work in the performance teams was dependent upon the depth
    of our relationships across many facets of product development.
    It was not uncommon for a day to start at one end with
-   a debate about optimal cache organizations followed by debugging
-   copy-avoidance changes before sitting down to find ways to budget another
-   hundred load generators ahead of an evening  presentation regarding
+   a debate about optimal cache organizations, followed by debugging
+   copy-avoidance changes, before sitting down to find budget 
+   to purchase another hundred systems to expand our load generators,
+   ahead of an evening presentation regarding
    how much to rewrite the advertising plans because of recent performance
    breakthroughs
    |--| a very tight loop between the technical details of implementation
@@ -343,7 +349,7 @@ representative, so when the boardroom arguments erupted
 instead of the usual shoot-the-messenger response
 our data and our methods were used to drive change across the company.
 
-A common theme was that very few customers
+The common theme was that very few customers
 ever care about technology for technology's sake.
 The vast majority of the marketplace just wants solutions that provide
 the desired experience with a minimum of cost and hassle.
@@ -378,6 +384,6 @@ To be successful in these situations takes a lot of preparation,
 and often a bit of good fortune,
 but all these situations start with a willingness to stand up
 and draw attention to some well founded data
-that reveals what others may not want but need to see.
+that reveals what others may not want but that all do need to see.
 
 .. |--| unicode::  U+2013  .. en dash

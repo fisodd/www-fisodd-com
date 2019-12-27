@@ -17,6 +17,13 @@ The tools available today allow these sites to be rich in content,
 and yet lightweight in infrastructure |--| and hence
 very inexpensive and still easy to maintain.
 
+All the themes and other technology locally developed for this site
+are licensed under an open
+`MIT License <https://opensource.org/licenses/MIT>`__
+(the content is made available under
+`Creative Commons Attribution-ShareAlike
+<https://creativecommons.org/licenses/by-sa/4.0/>`__).
+
 
 The Base
 ********

@@ -22,7 +22,7 @@ Much of the material here is to expand upon
 Some of the rest are demos (or experiments) from an ongoing exploration
 of methods to visualize and deliver what is uncovered by Data Science.
 
-A few examples are listed below.  All the content, old and new,
+A few examples are listed below.  Everything on this site
 can be found within the sections listed in the menu across the top of the page.
 
 Questions, comments, or project ideas are all
