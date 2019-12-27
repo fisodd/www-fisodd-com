@@ -19,7 +19,7 @@ Hugo B-side
 
 Hugo B-side is a theme for `Hugo <https://gohugo.io/>`__
 using
-`reStructuredText <http://docutils.sourceforge.net/rst.html>`__
+`reStructuredText <https://docutils.sourceforge.net/rst.html>`__
 markup to produce a clean column-and-sidenotes style
 that follows many of the design ideas that have flowed from
 `Edward Tufte's <https://www.edwardtufte.com/tufte/>`__ work.
@@ -51,7 +51,7 @@ features and techniques is
 
    - Support for `inline math <https://hugo-b-side-demo.netlify.com/post/using-bside/#math>`__ and `code directives <https://hugo-b-side-demo.netlify.com/post/tufte/#code>`__
 
-   - `Tables <https://hugo-b-side-demo.netlify.com/post/using-bside/#tables>`__ including all forms of reStructuredText alternative table markup: `list-tables <http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`__ `field lists <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#field-lists>`__ even `bibliographic fields <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#bibliographic-fields>`__
+   - `Tables <https://hugo-b-side-demo.netlify.com/post/using-bside/#tables>`__ including all forms of reStructuredText alternative table markup: `list-tables <https://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`__ `field lists <https://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#field-lists>`__ even `bibliographic fields <https://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#bibliographic-fields>`__
 
    With
 

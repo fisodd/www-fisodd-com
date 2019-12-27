@@ -10,7 +10,7 @@ type = "post"
 
 The
 `PracticalMachineLearning repository
-<http://fisodd.github.io/PracticalMachineLearning/>`__
+<https://fisodd.github.io/PracticalMachineLearning/>`__
 holds a small writeup done as the final project
 for the Practical Machine Learning course
 available through Coursera from the folks at

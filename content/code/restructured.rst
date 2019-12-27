@@ -13,7 +13,7 @@ Hugo Restructured
 
 Hugo Restructured is a theme for `Hugo <https://gohugo.io/>`__
 that exploits
-`reStructuredText <http://docutils.sourceforge.net/rst.html>`__
+`reStructuredText <https://docutils.sourceforge.net/rst.html>`__
 markup to enable rich formatting and page layout
 within a simple markdown system.
 

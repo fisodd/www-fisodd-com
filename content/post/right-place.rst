@@ -32,7 +32,7 @@ Dawn of Personal Computing: What and Why?
 
 .. sidebar:: Wang 2200
 
-   The `Wang 2200 <http://www.wang2200.org/>`__ was a very interesting device.
+   The `Wang 2200 <https://www.wang2200.org/>`__ was a very interesting device.
    It may have been one of the first "personal computers",
    but it was never a small device.
    Wang's
@@ -44,10 +44,10 @@ Dawn of Personal Computing: What and Why?
    .. figure:: Wang2200-terminal.jpg
       :width: 100%
 
-      Image: `Wang2200.org <http://www.wang2200.org>`__
+      Image: `Wang2200.org <https://www.wang2200.org>`__
 
    Note: Brochure obtained from
-   `Computer History Museum archives <http://www.computerhistory.org/revolution/minicomputers/11/364/1998>`__
+   `Computer History Museum archives <https://www.computerhistory.org/revolution/minicomputers/11/364/1998>`__
 
 I got my first exposure to computing in the mid '70s
 when my middle school in one of Boston's tech suburbs
@@ -104,7 +104,7 @@ from its point of leverage.
 
    .. figure:: AppleIIReference-product-74199.jpg
 
-      Image: `Centre for Computing History <http://www.computinghistory.org.uk/det/22097/Apple-II-Reference-Manual/>`__
+      Image: `Centre for Computing History <https://www.computinghistory.org.uk/det/22097/Apple-II-Reference-Manual/>`__
 
    Manual hosted within the amazing collections at 
    `Archive.org <https://archive.org/>`__.
@@ -147,7 +147,7 @@ could offer.
 
 .. sidebar:: Ray Montgomery
 
-   `Ray Montgomery <http://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
+   `Ray Montgomery <https://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
    was the original publisher and author for the
    `Choose Your Own Adventure <https://www.cyoa.com/>`__
    series of children's books that used game theory and
@@ -229,7 +229,7 @@ running several variants of BSD and System V Unix.
    .. figure:: us__en_us__ibm100__risc_architecture__john_cocke__750x990.jpg
       :width: 100%
 
-      John Cocke, source: `IBM <http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/risc/>`__
+      John Cocke, source: `IBM <https://www-03.ibm.com/ibm/history/ibm100/us/en/icons/risc/>`__
 
 More interestingly, my work landed right in the middle of the RISC-vs-CISC
 arguments.  While I had studied RISC architectures in school,
@@ -325,14 +325,14 @@ track everyone's progress towards those overall goals.
 
    Horace Dediu was one of the earliest analysts to realize
    how disruptive smartphones would be to the computer industry.
-   His blog at `Asymco.com <http://www.asymco.com/>`__
+   His blog at `Asymco.com <https://www.asymco.com/>`__
    is full of beautifully clear charts showing
    this disruption as it happens.
 
    .. figure:: Screen-Shot-2016-03-28-at-12.28.22-PM-617x620.png
       :width: 100%
 
-      Source: `Aysmco: The Next 40 <http://www.asymco.com/2016/03/28/the-next-40/#identifier_0_7568>`__, 2016-03-28
+      Source: `Aysmco: The Next 40 <https://www.asymco.com/2016/03/28/the-next-40/#identifier_0_7568>`__, 2016-03-28
 
 Even as the market delivered this vision
 with new laptops only a third of the weight

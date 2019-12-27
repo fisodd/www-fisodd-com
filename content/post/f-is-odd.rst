@@ -31,7 +31,7 @@ trying to explain to incredulous fellow students and faculty
 in the English department why it was not a completely crazy idea
 to spend so much time earning a second degree in Computer Science.
 
-.. [*] `Ray Montgomery <http://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
+.. [*] `Ray Montgomery <https://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
    believed that the non-linear storytelling of his
    choose-your-own-adventure stories would translate well
    to the new medium of home computers.
@@ -46,7 +46,7 @@ During this time, for my first job in "tech"
 I had lucked into a part-time position
 with a local writer and publisher, Ray Montgomery\ [*]_,
 who was transforming
-`a series of children's adventure stories <http://www.cyoa.com/>`__
+`a series of children's adventure stories <https://www.cyoa.com/>`__
 into interactive computer games.
 
 Like most every first job, I was assigned the grunt work.

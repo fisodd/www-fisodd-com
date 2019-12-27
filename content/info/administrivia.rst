@@ -105,18 +105,18 @@ reStructuredText
 
 .. sidebar:: reStructuredText
 
-   .. image:: http://docutils.sourceforge.net/rst.png
+   .. image:: https://docutils.sourceforge.net/rst.png
       :width: 100%
 
    `Quickstart Primer
-   <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`__
+   <https://docutils.sourceforge.net/docs/user/rst/quickstart.html>`__
 
 The other reason why many static-site based blogs look similar
 is because the common markup is very simplistic and not designed
 to be capable of a lot of variations.
 
 This site, and the B-side theme, takes advantage of Hugo's
-support for `reStructuredText <http://docutils.sourceforge.net/rst.html>`__.
+support for `reStructuredText <https://docutils.sourceforge.net/rst.html>`__.
 While still a plaintext markup, reStructuredText is a more mature and robust
 solution designed to be able to handle complex documentation publication needs.
 For a sample of the features of this theme, see the
