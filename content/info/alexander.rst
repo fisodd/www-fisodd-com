@@ -18,7 +18,7 @@ Alexander Carlton
    understand results and appreciate effects.
 
 For more, see
-`my resume </work/cv/AlexanderCarlton_DataAnalystPerformanceDeveloper.pdf>`__
+`my resume </work/cv/AlexanderCarlton_DesignerDeveloperDatatician.pdf>`__
 or
 `my LinkedIn profile <https://www.linkedin.com/in/AlexanderCarlton>`__.
 But basically, I've been lucky enough to have been in
