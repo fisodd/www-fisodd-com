@@ -1,5 +1,11 @@
 
 [[items]]
+   name = "Neat and Tidy"
+   path = "/code/neat-and-tidy/"
+   desc = "Examples of how to manage COVID-19 data with the Tidyverse libraries in R"
+   date = "2020-04-14"
+
+[[items]]
    name = "CSView"
    path = "/code/csview/"
    desc = "A web-app to view CSV content; dynamic tables, interactive charts."
@@ -10,10 +16,4 @@
    path = "/code/b-side/"
    desc = "A Tufte-inspired theme for Hugo using reStructuredText to support margin notes and other features."
    date = "2018-05-30"
-
-[[items]]
-   name = "Right Place, Right Time"
-   path = "/post/right-place/"
-   desc = "Lucky enough to have learned a few lessons along the way."
-   date = "2018-07-28"
 

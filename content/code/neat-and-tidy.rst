@@ -2,8 +2,8 @@
 date = "2020-04-14T13:24:13-07:00"
 title = "Neat and Tidy"
 description = "A look at how the Tidyverse in R can be effective, using the COVID-19 case data as an example."
-categories = [ "Coding" ]
-tags = [ "R", "tidyverse" ]
+categories = [ "Analyses" ]
+tags = [ "R", "tidyverse". "COVID-19" ]
 type = "post"
 +++
 
@@ -21,7 +21,7 @@ Neat and Tidy
 
 "Neat and Tidy" is this author's attempt to pull together a collection of
 notes and annotations about what has been called
-`the Tidyverse <https://www.tidyverse.org/>`__ -- a
+`the Tidyverse <https://www.tidyverse.org/>`__ |--| a
 set of libraries for the
 `R language environment <https://www.r-project.org/>`__.
 
@@ -41,7 +41,7 @@ that has since the very beginning motivated
 `this approach to seeing and working with data
 <https://vita.had.co.nz/papers/tidy-data.pdf>`__.
 "Neat" because the resulting code is clean and concise,
-but also because I find so much of this to be really cool...
+but also because I do find much of this to be rather cool...
 
 Hadley Wickham's work and the community that it engendered has changed
 how I do most all of my analysis work, and probably has improved how I
@@ -50,7 +50,7 @@ I spent decades in the tech industry where many of my key successes
 were in effect the results of beating spreadsheets into submission.
 Then I stumbled upon Hadley Wickham's libraries for R,
 and so much of what I had been hacking my way through started to make sense,
-and my work became a whole lot more easily executed --
+and my work became a whole lot more easily executed |--|
 and much more easily understood, replicated,
 and (perhaps most importantly) improved upon by my teammates.
 
@@ -64,39 +64,30 @@ Why Be "Tidy"?
    like just about every niche of Computer Science,
    there is a brewing religious war about which tools and methods are best.
    I've lived through
-   `a bunch of these </post/right-place>`__ --
+   `a bunch of these </post/right-place>`__ |--|
    enough so that I have learned there are good opinions on all sides.
    In the world of `R`, the Tidyverse is definitely generating
    `some <https://github.com/matloff/TidyverseSkeptic>`__
    `reactions <https://blog.ephorie.de/why-i-dont-use-the-tidyverse>`__
-   -- but I still find the tidyverse to be one of the sanest approaches to use.
-
-   For those who value purity, Base R is already a very powerful tool,
-   and sticking with the base features makes it easier to untilize many of the
-   `thousands of packages <https://cran.r-project.org/web/packages/index.html>`__
-   that can help accomplish most any goal (and to write new packages that
-   everyone can utilize).
-   For those who may be focused on table-oriented data, especially large tables,
-   the `data.table <https://github.com/Rdatatable/data.table/wiki>`__ package
-   expands upon R's "data.frame" datatype and extends the capabilities,
-   enriches the toolset, as well as significantly enhances the performance --
-   and in the process opens up whole new realms of data analysis.
+   |--| still I find the tidyverse to be one of the sanest approaches to use.
 
    There are a variety of techniques to stay sane with this stuff,
-   and like anything in the real world there are tradeoffs whichever way you go.
-   The tidyverse is opinionated, which does mean that this approach may not work
-   as well with other parts of the R ecosystem that are based on different
+   and as with anything in the real world
+   there are tradeoffs whichever way you go.
+   The tidyverse is opinionated,
+   which does mean that this approach may not work as well
+   with other parts of the R ecosystem that are based on different
    approaches and assumptions.
 
-   But there is a sweet spot of users --
+   But there is a sweet spot of users |--|
    maybe those just a bit more comfortable
    with the concept of chaining functions together to achieve an effect,
    perhaps those just seeking a wordier syntax
    (or at least one that is less dense)
-   -- where the tidyverse can enable powerful analyses that can be developed
-   quickly.
+   |--| where the tidyverse can provide a rich ecosystem
+   where powerful analyses can be developed quickly.
 
-R can be a bit of a wierd environment to work in -- not surprising
+R can be a bit of a wierd environment to work in |--| not surprising
 considering this is a flexible and powerful system with a syntax that
 reaches back to the '90s with roots in hacking a better way to interface
 to FORTRAN calculation libraries.  And R includes a number of quirks
@@ -130,7 +121,7 @@ and other lexical features not common in conversational languages.
       ) %>%
       filter(arr > 30 | dep > 30)
 
-The structure is not necessarily obvious -- until one recognizes
+The structure is not necessarily obvious |--| until one recognizes
 the patterns.
 
 .. code:: r
@@ -156,7 +147,7 @@ and passing it to "assemble()" and then "bake()" and then "cut_and_serve()".
 [Yes, these function names are completely made up...]
 
 This chain of function calls, one per line turns out to be a help to
-how I do much of my debugging --
+how I do much of my debugging |--|
 one place where I find a bit of an advantage working with tidyverse calls
 rather than with some of the denser bits of R syntax.
 
@@ -172,7 +163,7 @@ When something unexpected happens, I just break the chain between two
 of the verbs (comment out the rest, or when interactive perhaps just leave
 the remaining bit as a dangling [but unreached] bit of syntax)
 and then check if the partial chain produces results in line with
-expectations -- if not the problem is somewhere above,
+expectations |--| if not the problem is somewhere above,
 otherwise the problem manifests itself somewhere further down the chain.
 
 
@@ -209,3 +200,5 @@ that provides a simple and sane way to display all 50 states at one time,
 so that you can worry about your data rather than how to transform your
 projections to re-arrange the entire Pacific Ocean.
 
+
+.. |--| unicode:: U+2013  .. en dash
