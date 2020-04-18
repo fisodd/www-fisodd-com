@@ -3,7 +3,7 @@ date = "2020-04-14T13:24:13-07:00"
 title = "Neat and Tidy"
 description = "A look at how the Tidyverse in R can be effective, using the COVID-19 case data as an example."
 categories = [ "Analyses" ]
-tags = [ "R", "tidyverse". "COVID-19" ]
+tags = [ "R", "tidyverse", "COVID-19" ]
 type = "post"
 +++
 
