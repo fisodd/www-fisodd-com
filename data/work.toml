@@ -1,5 +1,11 @@
 
 [[works]]
+   name = "Neat and Tidy: COVID-19 Reatime Rt"
+   path = "/work/neat-and-tidy/realtime-rt/"
+   desc = "Looking at COVID-19 with a Tidyverse version of a Bayesian analysis in Python Scipy"
+   date = "2020-05-02"
+
+[[works]]
    name = "Neat and Tidy: COVID-19 Choropleths"
    path = "/work/neat-and-tidy/choropleths/"
    desc = "Using the Tidyverse in R to map COVID-19 cases by county in the US."
@@ -16,10 +22,4 @@
    path = "/work/csview/"
    desc = "Customizable Summary View of CSV content, with dynamic tables and responsive charts."
    date = "2018-09-02"
-
-[[works]]
-   name = "Storm Events"
-   path = "/work/StormEvents/"
-   desc = "An executive summary of a NOAA dataset; a simple academic assignment useful mostly as a demonstration of RMarkdown's ability to readily integrate writeup and code in the same file."
-   date = "2016-03-01"
 

@@ -65,11 +65,13 @@ Why Be "Tidy"?
    there is a brewing religious war about which tools and methods are best.
    I've lived through
    `a bunch of these </post/right-place>`__ |--|
-   enough so that I have learned there are good opinions on all sides.
+   enough so that I have learned to listen to all sides,
+   especially after I may have made up my own mind.
    In the world of `R`, the Tidyverse is definitely generating
    `some <https://github.com/matloff/TidyverseSkeptic>`__
    `reactions <https://blog.ephorie.de/why-i-dont-use-the-tidyverse>`__
-   |--| still I find the tidyverse to be one of the sanest approaches to use.
+   |--| yet still I find the tidyverse to be one of the sanest approaches 
+   for the problems I encounter.
 
    There are a variety of techniques to stay sane with this stuff,
    and as with anything in the real world
@@ -82,7 +84,7 @@ Why Be "Tidy"?
    But there is a sweet spot of users |--|
    maybe those just a bit more comfortable
    with the concept of chaining functions together to achieve an effect,
-   perhaps those just seeking a wordier syntax
+   perhaps those just seeking a less cryptic syntax
    (or at least one that is less dense)
    |--| where the tidyverse can provide a rich ecosystem
    where powerful analyses can be developed quickly.
@@ -133,7 +135,8 @@ the patterns.
 
 This snippet above is an abuse of a language metaphor to show one way to
 read tidyverse code: a "subject" is assigned the value of an "object"
-after that object has been passed through each "verb" in sequence.
+after that object has been fed into the sequence of "verbs"
+(each verb taking in the results of the verb before it in the sequence).
 
 .. code:: r
 
@@ -142,8 +145,10 @@ after that object has been passed through each "verb" in sequence.
       bake() %>%
       cut_and_serve()
 
-In this case, the variable "y" is built by taking "x"
-and passing it to "assemble()" and then "bake()" and then "cut_and_serve()".
+In this case, the variable "y" is built by
+taking "x" and passing it to "assemble()"
+whose results are then passed to "bake()"
+whose results are then passed to "cut_and_serve()".
 [Yes, these function names are completely made up...]
 
 This chain of function calls, one per line turns out to be a help to
@@ -159,8 +164,9 @@ rather than with some of the denser bits of R syntax.
    #   cut_and_serve()
    print(y)
 
-When something unexpected happens, I just break the chain between two
-of the verbs (comment out the rest, or when interactive perhaps just leave
+When trying to figure out where something unexpected happened,
+I start by just breaking the chain between two of the verbs
+(comment out the rest, or when interactive perhaps just leave
 the remaining bit as a dangling [but unreached] bit of syntax)
 and then check if the partial chain produces results in line with
 expectations |--| if not the problem is somewhere above,
@@ -199,6 +205,18 @@ from the people at the Urban Institute
 that provides a simple and sane way to display all 50 states at one time,
 so that you can worry about your data rather than how to transform your
 projections to re-arrange the entire Pacific Ocean.
+
+`Realtime Rt </work/neat-and-tidy/realtime-rt>`__
+
+A third example, this time forking off of some engineering
+by Kevin Systrom that was used to create `rt.live <https://rt.live/>`__.
+This project starts with a port from Python Scipy to R/Tidyverse
+of an early version of that modeling work.
+This small application uses the original Bayesian analyses
+to create a relative comparison of how the effective reproductive rate
+differs by state,
+with the *neat* part being how `dplyr` and `purrr` can be used to
+build significant computations with small bits of elegant code.
 
 
 .. |--| unicode:: U+2013  .. en dash
