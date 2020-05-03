@@ -1,0 +1,4 @@
+<link rel="icon" type="image/png" href="/img/favicon.png">
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+  {{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
