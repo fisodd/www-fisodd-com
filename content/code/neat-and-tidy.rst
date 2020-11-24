@@ -32,7 +32,7 @@ in my GitHub.
 Since
 `entire books <https://r4ds.had.co.nz/>`__
 and a lot more have already been written
-about the tidyverse libaries, what is here may be
+about the tidyverse libraries, what is here may be
 some of the (perhaps more obscure but still)
 powerful and effective tools in
 the `tidyverse` library for the R language environment.
@@ -41,13 +41,13 @@ that has since the very beginning motivated
 `this approach to seeing and working with data
 <https://vita.had.co.nz/papers/tidy-data.pdf>`__.
 "Neat" because the resulting code is clean and concise,
-but also because I do find much of this to be rather cool...
+but also because, frankly, I do find much of this to be rather cool...
 
 Hadley Wickham's work and the community that it engendered has changed
 how I do most all of my analysis work, and probably has improved how I
 even think about data in general.
 I spent decades in the tech industry where many of my key successes
-were in effect the results of beating spreadsheets into submission.
+were largely results of beating spreadsheets into submission.
 Then I stumbled upon Hadley Wickham's libraries for R,
 and so much of what I had been hacking my way through started to make sense,
 and my work became a whole lot more easily executed |--|
@@ -58,15 +58,15 @@ and (perhaps most importantly) improved upon by my teammates.
 Why Be "Tidy"?
 ##############
 
-.. sidebar:: Tidy War
+.. sidebar:: Tidy Arguments
 
    Before we dive right in, I should note that,
    like just about every niche of Computer Science,
-   there is a brewing religious war about which tools and methods are best.
-   I've lived through
-   `a bunch of these </post/right-place>`__ |--|
+   there is an ongoing argument in Data Science,
+   and even with the R community, about which tools and methods are best.
+   I've lived through `a bunch of these </post/right-place>`__ |--|
    enough so that I have learned to listen to all sides,
-   especially after I may have made up my own mind.
+   especially *after* I may have made up my own mind.
    In the world of `R`, the Tidyverse is definitely generating
    `some <https://github.com/matloff/TidyverseSkeptic>`__
    `reactions <https://blog.ephorie.de/why-i-dont-use-the-tidyverse>`__
@@ -84,14 +84,14 @@ Why Be "Tidy"?
    But there is a sweet spot of users |--|
    maybe those just a bit more comfortable
    with the concept of chaining functions together to achieve an effect,
-   perhaps those just seeking a less cryptic syntax
-   (or at least one that is less dense)
+   perhaps those just seeking a somewhat more regular syntax
+   (or maybe just one that is less dense)
    |--| where the tidyverse can provide a rich ecosystem
-   where powerful analyses can be developed quickly.
+   where powerful analyses can be developed effectively.
 
 R can be a bit of a wierd environment to work in |--| not surprising
 considering this is a flexible and powerful system with a syntax that
-reaches back to the '90s with roots in hacking a better way to interface
+reaches back into the '90s with roots in hacking a better way to interface
 to FORTRAN calculation libraries.  And R includes a number of quirks
 involving typing shorthand that reveals a history of catering to
 interactive work at the console level.
@@ -101,11 +101,11 @@ The result is a language that can come across as dense and cryptic.
 
    cn <- paste(g[which(!is.na(str_locate(lines,"^[]*cn")[,"start"]))[1]:(abs_-1L)],collapse="")
 
-The example above is borrowed (and adapted a bit) from
+The one-line code example above is borrowed from
 `a motivating example for a style guide
 <https://github.com/matloff/R-Style-Guide>`__
-(but is admitted to be adapted from production code).
-Yeah, this stuff can be a bit difficult to parse
+(but is admitted to be pulled out of some production code).
+Yeah, this kind of stuff can be a bit difficult to parse
 if you are not working with it every day...
 
 To the uninitiated, any code can easily seem impossible to read,
@@ -141,15 +141,15 @@ after that object has been fed into the sequence of "verbs"
 .. code:: r
 
    y <- x %>%
-      assemble() %>%
+      mix() %>%
       bake() %>%
-      cut_and_serve()
+      serve()
 
-In this case, the variable "y" is built by
-taking "x" and passing it to "assemble()"
+To switch over and abuse a cooking metaphor this time,
+in this case the variable "y" is built by
+taking "x" and passing it to "mix()"
 whose results are then passed to "bake()"
-whose results are then passed to "cut_and_serve()".
-[Yes, these function names are completely made up...]
+whose results are then passed to "serve()".
 
 This chain of function calls, one per line turns out to be a help to
 how I do much of my debugging |--|
@@ -159,22 +159,21 @@ rather than with some of the denser bits of R syntax.
 .. code:: r
 
    y <- x %>%
-      assemble() # %>%
-   #   bake() %>%
-   #   cut_and_serve()
+      mix() %>%
+      bake()
    print(y)
+   # %>%
+   #   serve()
 
 When trying to figure out where something unexpected happened,
 I start by just breaking the chain between two of the verbs
-(comment out the rest, or when interactive perhaps just leave
+(comment out the rest, or perhaps just leave
 the remaining bit as a dangling [but unreached] bit of syntax)
 and then check if the partial chain produces results in line with
-expectations |--| if not the problem is somewhere above,
+expectations |--| if not then the problem is somewhere above,
 otherwise the problem manifests itself somewhere further down the chain.
+Rinse and repeat, until the step producing unexpected results is found.
 
-
-Some Neat Examples
-##################
 
 .. sidebar:: Source Data
 
@@ -183,7 +182,20 @@ Some Neat Examples
    `the COVID-19 data from Johns Hopkins CSSE
    <https://github.com/CSSEGISandData/COVID-19>`__.
 
-`Small Multiples </work/neat-and-tidy/small-multiples>`__
+Some Neat Examples
+##################
+
+These examples are all part of the
+`neat and tidy repository <https://github.com/fisodd/neat-and-tidy>`__
+in my Github.
+
+
+Small Multiples
+***************
+
+.. figure:: small-multiples.png
+
+   Chart of recent COVID-19 case trends across US states
 
 The first example I worked with was to see what I could learn with
 `small multiples <https://en.wikipedia.org/wiki/Small_multiple>`__.
@@ -192,7 +204,15 @@ but the *neat* part was getting a chance to play with the
 new `pivot functions <https://tidyr.tidyverse.org/articles/pivot.html>`__
 in tidyverse.
 
-`Choropleths </work/neat-and-tidy/choropleths>`__
+`Walkthru of Small Multiples code in Rmarkdown </work/neat-and-tidy/small-multiples>`__
+
+
+Choropleths
+***********
+
+.. figure:: choropleth-animation.gif
+
+   Animated maps of COVID-19 outbreaks in counties across the US
 
 The second example was playing with the mapping tools,
 and set out to make an animation loop of how cases spread out across
@@ -206,7 +226,15 @@ that provides a simple and sane way to display all 50 states at one time,
 so that you can worry about your data rather than how to transform your
 projections to re-arrange the entire Pacific Ocean.
 
-`Realtime Rt </work/neat-and-tidy/realtime-rt>`__
+`Walkthru of Choropleths code in Rmarkdown </work/neat-and-tidy/choropleths>`__
+
+
+Realtime Rt
+***********
+
+.. figure:: realtime-rt.png
+
+   Chart of estimated Rt by state over time
 
 A third example, this time forking off of some engineering
 by Kevin Systrom that was used to create `rt.live <https://rt.live/>`__.
@@ -217,6 +245,8 @@ to create a relative comparison of how the effective reproductive rate
 differs by state,
 with the *neat* part being how `dplyr` and `purrr` can be used to
 build significant computations with small bits of elegant code.
+
+`Walkthru of Realtime Rt code in Rmarkdown </work/neat-and-tidy/realtime-rt>`__
 
 
 .. |--| unicode:: U+2013  .. en dash
