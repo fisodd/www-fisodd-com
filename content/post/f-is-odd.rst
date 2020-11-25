@@ -42,7 +42,7 @@ to spend so much time earning a second degree in Computer Science.
    Not easy, but great people with a good challenge
    made for a wonderful first job.
 
-During this time, for my first job in "tech"
+During this time, for `my first "tech" job </post/right-place>`__
 I had lucked into a part-time position
 with a local writer and publisher, Ray Montgomery\ [*]_,
 who was transforming
