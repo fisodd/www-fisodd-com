@@ -45,7 +45,7 @@ Code must be written to be readable
    even within single-author projects |...|
 
 Any code that lives to see the end of the day,
-will live far longer than originally imagined.
+will probably live far longer than originally imagined.
 Also any code that lasts longer than a day
 is quite likely to be read by humans\ [*]_
 more often than it will be parsed by compilers.
@@ -56,7 +56,7 @@ that is syntactically correct, and more importantly
 (so long as one adheres to the language definitions)
 compilers will suffer in silence.
 Yes, humans can puzzle out the logic in almost anything,
-but humans are also fickle beasts that will complain
+but humans are also fickle beasts who will complain
 when tasks are made more difficult than necessary.
 
 .. sidebar:: Obfuscated Code
@@ -92,6 +92,9 @@ but you need to honor the style that is already there.
 No matter how beautiful the poetry,
 it does no good to throw down a Shakespearean sonnet
 in the middle of a logic test.
+Living with and working with whatever is the style of the existing code
+is a higher priority than personal preference,
+even higher than the following prescriptions.
 
 
 Enhanced Elements
@@ -125,10 +128,12 @@ Whitespace is significant
    Seriously, don't do that.
 
 Civilizations spent hundreds of years perfecting
-the art of written communication in book form and newspapers.
+the art of written communication in book form
+and later in journals and newspapers.
 One of the lessons learned was that the layout greatly affects
 how the reader absorbs the content.
-Do not forget this lesson just because the display is glass not paper.
+Do not forget this lesson just because the display is made of glass
+rather than paper.
 
 The reader uses the visual cues of whitespace
 to pick up patterns in the material.

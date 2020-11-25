@@ -34,7 +34,7 @@ features and techniques is
 
 .. sidebar:: B-side Features
 
-   - Responsive 2-column page layout (scales from 300 to 1300 pixels wide)
+   - Responsive 2-column page layout (scales from 300 to 1300+ pixels wide)
    - Supports all reStructuredText markup features
 
    Including
@@ -80,8 +80,8 @@ as well as inline math notations without calling out to MathJax.
 B-side was also implemented to take advantage of Hugo's flexibility.
 For example, use of Hugo's page type variable allows for
 different layout options
-(e.g. one wide single column instead of the default main-plus-side
-column layout).
+(e.g. supporting a page type with one wide single column
+instead of the theme's default main-plus-side column layout).
 
 Finally, the underlying CSS was crafted to provide responsive
 display for all reStructuredText markup and directives,
@@ -106,5 +106,5 @@ I am very grateful for the clean implementation and the helpful comments.
 
 Also, many, many thanks to
 `all the folks <https://github.com/gohugoio/hugo/graphs/contributors>`__
-who make Hugo rock.
+who make Hugo such an effective tool.
 

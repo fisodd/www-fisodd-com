@@ -57,7 +57,7 @@ with an full sized table dedicated to hold this 60 pound
 electronic beast and all of its various support units.
 The only display was a small monochrome CRT with at most 16 lines of text
 along with a modified typewriter attached that could be used
-to dump out hardcopy, and all the "storage" was on cassette tapes.
+to dump out hardcopy, and our unit's only "storage" was on cassette tapes.
 And yet, this system was clearly personal in nature |--|
 it booted in seconds into an interactive environment.
 Even if the display was small, the updates were immediate,
@@ -65,14 +65,14 @@ and the system was quite effective.
 
 The question for my school was what to do with this thing? 
 Our math teacher got us all to go through the steps
-to display geometric shapes and crude sinewaves,
+to print out geometric shapes and crude sinewaves,
 and many of us worked through other extensions of our "new math" curriculum.
 But for us kids, the real answer was obvious: *games!*
-The system came with a few cassette tapes including some BASIC games,
-and those were very popular.
+Our system came with a few cassette tapes including some BASIC games,
+which were of course immediately very popular.
 My first taste of the power of programming was when
 I hacked together something that could overwrite text on the screen
-which quickly evolved into a small game with several animated "horses"
+which quickly evolved into a tiny game with several animated "horses"
 (actually just character strings using marks
 such as an apostrophe for the head and slashes for the legs)
 running races across the screen |--|
@@ -80,12 +80,13 @@ which promptly got banned during school hours
 because the game was distracting too many students during class times.
 
 A few years later my upscale high-school was gifted a PDP-11 minicomputer,
-and the experience was entirely different |--| a stereotypical example
-of tech isolation.  That system was set up in the basement, in a locked room,
+and the experience was entirely different |--|
+a stereotypical example of tech isolation. 
+The high-school's system was set up in the basement, alone in a locked room,
 no access allowed without first earning a science teacher's approval.
 Only a very small number of students wanted to have anything to do
-with that system, and even though I could already code and already
-had some idea of what that system could do
+with that system, and even though I already understood some coding
+and already had some idea of what that system could do
 I saw no benefit to spending my time on anything that isolated.
 The power of any tool is limited by its degree of separation
 from its point of leverage.
@@ -96,11 +97,15 @@ from its point of leverage.
    provided with recent high-tech gadgets, but there was a time when
    these were extremely useful sources of reliable information about
    the device, and the
-   `Apple ][ Reference Manual <https://archive.org/details/Apple_II_Reference_Manual_1979_Apple>`__
-   is a classic.
+   `Apple II Reference Manual <https://archive.org/details/Apple_II_Reference_Manual_1979_Apple>`__
+   is a classic example of what a good manual can enable.
    Every aspect of the system is described in *plain* english, including
    debugging information, schematic diagrams, and yes, a handy guide
    to the 6502 Instruction Set in Appendix A.
+   I can attest that as a broke student on a borrowed machine this was
+   the only reference material I had access to, and yet it alone was enough
+   to to empower me to move from being just a computer user to start
+   becoming a computer developer.
 
    .. figure:: AppleIIReference-product-74199.jpg
 
@@ -109,15 +114,18 @@ from its point of leverage.
    Manual hosted within the amazing collections at 
    `Archive.org <https://archive.org/>`__.
 
-In college, my roommate had been loaned an Apple II by his father,
-and, being the only night-owl in our apartment,
+At the opposite end of the spectrum, in college my sophmore roommate
+had been loaned an Apple II by his father,
+and as I was the only night-owl in our apartment
 I managed to talk my way into using that computer after my roommate went to bed.
 Starting with `RobotWar <https://en.wikipedia.org/wiki/RobotWar>`__
-and eventually making heavy use of the seriously detailed early Apple manuals,
+and eventually making heavy use of the amazingly detailed early Apple manuals,
 I was able to recover my early coding skills
 and even teach myself how to code in 6502 Assembly,
 eventually completing a variety of little visual games
 pushing the limits of that 16 color graphics system.
+All by borrowing time on an open system
+sitting on a corner desk in our apartment's common room.
 
 My roommate's father had very high hopes for what these personal systems
 could do for small businesses like his, especially with tools like
@@ -197,12 +205,12 @@ but the resulting chaos provided me just the break I needed
 to enable a switch from my official status as
 just an English major taking some Computer Science classes
 and skip past a lot of waitlists and prerequisites
-to become not only a full-time CS student in the Engineering College
+to become not only a full-time CS student in the engineering college
 but also eventually a paid teaching assistant
 for some of the new higher level CS courses.
 
 Before long, instead of just being yet another undergraduate programmer
-seeking a terminal on the big timesharing systems,
+seeking an open terminal on the big timesharing systems,
 I had earned root login privileges and a key to a new machine-room filled with
 a variety of PDP-11s and VAXes and other systems all running BSD Unix.
 Chaos had lead to opportunity,
@@ -251,11 +259,12 @@ been championing.
 But soon I found myself involved in the arena of competitive performance
 where the challenge was not just RISC versus CISC,
 but included taking on mainframe computers and proving that minicomputers
-could win business in core business computing accounts.
-Here I was embedded right in the midst of the arguments between design goals
-versus pragmatic delivery, and our business flourished because we did have
-a visionary architecture but importantly we also had the disciplined focus to
-deliver features that our customers were willing to pay extra to have right now.
+could could be effective solutions in core business computing accounts.
+Here I was embedded right in the midst of the arguments between
+ambitious designs versus pragmatic delivery,
+and our business flourished because we did have a visionary architecture
+but importantly we also had the disciplined focus to deliver the features
+that our customers were willing to pay extra to have *right now*.
 
 .. sidebar:: Long days, wide arguments
 
@@ -349,7 +358,7 @@ across the country to generate some of the most hotly debated reports
 to be presented to the executive team.  Our conclusions were controversial
 but we had done the work to make our measurements both robust and
 representative, so when the boardroom arguments erupted
-instead of the usual shoot-the-messenger response
+instead of the usual shoot-the-messenger reactions
 our data and our methods were used to drive change across the company.
 
 The common theme was that very few customers
@@ -371,9 +380,9 @@ Observations
 Today, with the freedom to work on the projects that most intrigue me,
 I am playing in the deep waters of Data Science.  And yet, even in
 these new areas of discovery, I find myself still watching again
-how quickly over-hyped energy is dissipated, and that real progress
+how over-hyped energy is quickly dissipated, and that real progress
 comes from the stable engineering of those who have a solid grip on
-what is really necessary to address the problem at hand.
+what is really necessary to address the problems at hand.
 
 One of the few constants through all of these transformations has
 been the value of those who are willing to provide clear and steadfast
@@ -385,8 +394,8 @@ then the important decisions will be made in an information vacuum.
 
 To be successful in these situations takes a lot of preparation,
 and often a bit of good fortune,
-but all these situations start with a willingness to stand up
+but all these opportunities start with a willingness to stand up
 and draw attention to some well founded data
-that reveals something that we all do need to see.
+which reveals insights that we all do need to see.
 
 .. |--| unicode::  U+2013  .. en dash

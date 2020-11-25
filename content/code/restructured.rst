@@ -73,5 +73,5 @@ for understanding how templates actually work in Hugo.
 
 Again, many thanks to
 `all the folks <https://github.com/gohugoio/hugo/graphs/contributors>`__
-who make Hugo rock.
+who make Hugo such an effective tool.
 
