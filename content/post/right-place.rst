@@ -38,7 +38,7 @@ Dawn of Personal Computing: What and Why?
    Wang's
    `marketing brochure <Wang.Model2200.1973.102646199.pdf>`__
    provides a good overview, but for one illustrative example of
-   this system's quirks note the keyboard layout
+   this system's quirks note the keyboard layout in alphabetic order
    (shown on page 6 of the brochure linked above).
 
    .. figure:: Wang2200-terminal.jpg
@@ -55,13 +55,13 @@ was gifted with one of the earliest "personal computers".
 A storage closet was cleared out to become a "computer lab"
 with an full sized table dedicated to hold this 60 pound
 electronic beast and all of its various support units.
-The only display was a small CRT with at most 16 lines of text
+The only display was a small monochrome CRT with at most 16 lines of text
 along with a modified typewriter attached that could be used
 to dump out hardcopy, and all the "storage" was on cassette tapes.
-And yet, this system was clearly personal in nature,
-it booted in seconds into an interactive environment,
-|--| even if the display was small the updates were immediate,
-and the system was effective.
+And yet, this system was clearly personal in nature |--|
+it booted in seconds into an interactive environment.
+Even if the display was small, the updates were immediate,
+and the system was quite effective.
 
 The question for my school was what to do with this thing? 
 Our math teacher got us all to go through the steps
@@ -73,7 +73,7 @@ and those were very popular.
 My first taste of the power of programming was when
 I hacked together something that could overwrite text on the screen
 which quickly evolved into a small game with several animated "horses"
-(actually character strings using marks
+(actually just character strings using marks
 such as an apostrophe for the head and slashes for the legs)
 running races across the screen |--|
 which promptly got banned during school hours
@@ -134,10 +134,10 @@ this man's wish: "If you guys could just write a good charting program that
 could work with this stuff..."
 
 At the time the circle of coders for these personal systems
-was rather small (even way off in my university's backwaters)
-and for nothing more than the cost of only a few beers
-my friends and I got the chance to hear Richard Garriott
-tell stories about all the challenges creating the early
+was rather small, and even in the relative backwaters of my university
+for nothing more than the cost of a few beers
+my friends and I got the chance to swap advice with Richard Garriott
+and hear stories about the challenges creating the early
 `Ultima <https://en.wikipedia.org/wiki/Ultima_(series)>`__ games.
 And even then, while it was clear that the little systems could
 change the way business worked, it was even more clear that
@@ -160,16 +160,16 @@ could offer.
 
       Ray Montgomery, source: `CYOA <https://www.cyoa.com/pages/r-a-montgomery-1936-2014>`__
 
-Bridging between worlds as an English Major spending inordinate amounts
-of time in the Computer Science department,
+Bridging between tech and literary worlds as an English Major
+spending inordinate amounts of time in the Computer Science department,
 I fell into an interesting opportunity (which later became
 `the genesis of this website's name </post/f-is-odd>`__).
 Ray Montgomery, a local author and early coder,
-was at the leading edge of interactive fiction,
-was working to squeeze his book-length text and some graphical mini-games
-to fit within the limits of
+was at the leading edge of what has become interactive fiction.
+At that time he was working to squeeze his book-length text
+and some graphical mini-games to fit within the limits of
 `early Atari consoles <https://en.wikipedia.org/wiki/Atari_2600>`__.
-Running up against deadlines, he hired me to help finish and test the project,
+Running up against deadlines, he hired me to help finish and test his project,
 and I found myself deep in an excellent introduction to practical computing.
 Key lessons came from supporting the decision processes
 for how to successfully determine what to keep and what to drop
@@ -188,24 +188,27 @@ there was a serious rift that tore through parts of our engineering faculty.
 Several professors abruptly left the school,
 and eventually the remaining Computer Science department broke away
 from the main core of the computing resources on campus.
-The new department switched their focus from FORTRAN, COBOL, and Pascal
+The new CS department abruptly shifted their focus from mainframes running
+FORTRAN, COBOL, and Pascal
 over to a new curriculum focused on emerging paradigms such as
 Unix, RISC architecture, and open source software.
 This break was massively disruptive to the engineering college,
 but the resulting chaos provided me just the break I needed
-to go from being an English major taking some Computer Science classes
-and skip past a lot of prerequisites and waitlists
-to become not only a full-time CS student
-but also a teaching assistant for some of the new higher level CS courses.
+to enable a switch from my official status as
+just an English major taking some Computer Science classes
+and skip past a lot of waitlists and prerequisites
+to become not only a full-time CS student in the Engineering College
+but also eventually a paid teaching assistant
+for some of the new higher level CS courses.
 
 Before long, instead of just being yet another undergraduate programmer
 seeking a terminal on the big timesharing systems,
 I had earned root login privileges and a key to a new machine-room filled with
 a variety of PDP-11s and VAXes and other systems all running BSD Unix.
 Chaos had lead to opportunity,
-including an offer to stay for a masters degree
-giving me deep hands-on, source-level experience
-across what proved to be a very wide range of single and multi user systems
+including an offer of a scholarship to stay for a masters degree
+giving me hands-on, source-level experience across what proved to be
+a wide range of both single- and multi-user systems
 running several variants of BSD and System V Unix.
 
 .. sidebar:: RISC vs CISC
@@ -222,7 +225,7 @@ running several variants of BSD and System V Unix.
    and instead I came away in awe of John Cocke's elegant approach for the 801,
    which led me to be a firm adherent of the RISC design philosophies
    even when I later came to work at Intel
-   (though by then the key parts of the x86 architecture was implemented
+   (though by that time the key parts of the x86 architecture was implemented
    in relatively cleaner designs even if the instruction set was still
    complex).
 
@@ -287,7 +290,7 @@ wild ideas and even wilder expectations.
 In a period where it seemed like everyone was being rewarded
 for attempting an even more outlandish claim than the one before,
 my team was prospering precisely because we had earned a solid reputation
-for honestly identifying flaws and providing well reasoned criticisms.
+for honest work identifying flaws and providing well reasoned criticisms.
 
 
 Efficiency Rules
@@ -303,7 +306,7 @@ Where I had been proving standard Unix could overtake the proprietary systems,
 now now the challenge was showing that Linux and Microsoft's Windows Server
 were just as capable and a whole lot cheaper |--| matching the performance
 results was relatively easy, the harder task was stripping marketing claims
-down to bare facts and then reassembling a clearer picture of the real costs.
+down to bare facts and then reassembling a clearer picture of users' real costs.
 Once again, with tactical analysis and robust engineering,
 we were successful in proving the underdog could win,
 and again our marketplace transformed the industry.
@@ -342,7 +345,7 @@ evaluating when, where, and how smartphones would threaten laptops.
 Starting alone, creating a new lab out of a basement storeroom,
 we built a team that would soon include a dozen people directly measuring
 all sorts of phone and tablet devices, working with dozens of partners
-across the country to generate some of the most reactive reports
+across the country to generate some of the most hotly debated reports
 to be presented to the executive team.  Our conclusions were controversial
 but we had done the work to make our measurements both robust and
 representative, so when the boardroom arguments erupted
