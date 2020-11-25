@@ -87,7 +87,7 @@ Why Be "Tidy"?
    perhaps those just seeking a somewhat more regular syntax
    (or maybe just one that is less dense)
    |--| where the tidyverse can provide a rich ecosystem
-   where powerful analyses can be developed effectively.
+   that enables effective development of powerful analyses.
 
 R can be a bit of a wierd environment to work in |--| not surprising
 considering this is a flexible and powerful system with a syntax that
@@ -109,7 +109,7 @@ Yeah, this kind of stuff can be a bit difficult to parse
 if you are not working with it every day...
 
 To the uninitiated, any code can easily seem impossible to read,
-especially with languages such as R which support function programming
+especially with languages such as R which support functional programming
 and other lexical features not common in conversational languages.
 
 .. code:: r
@@ -145,13 +145,19 @@ after that object has been fed into the sequence of "verbs"
       bake() %>%
       serve()
 
-To switch over and abuse a cooking metaphor this time,
+Shifting over towards a cooking metaphor this time,
 in this case the variable "y" is built by
 taking "x" and passing it to "mix()"
 whose results are then passed to "bake()"
-whose results are then passed to "serve()".
+whose results are then passed to "serve()",
+and those final results are assigned to "y".
 
-This chain of function calls, one per line turns out to be a help to
+These chains of function calls are often written as one long line.
+I like to break each call into its own line,
+a personal styling quirk that helps me see each step quickly,
+otherwise it's all too easy to overlook
+a missing argument in one or more steps.
+Also, this one function call per line turns out to be a help to
 how I do much of my debugging |--|
 one place where I find a bit of an advantage working with tidyverse calls
 rather than with some of the denser bits of R syntax.
@@ -169,9 +175,9 @@ When trying to figure out where something unexpected happened,
 I start by just breaking the chain between two of the verbs
 (comment out the rest, or perhaps just leave
 the remaining bit as a dangling [but unreached] bit of syntax)
-and then check if the partial chain produces results in line with
-expectations |--| if not then the problem is somewhere above,
-otherwise the problem manifests itself somewhere further down the chain.
+and then check if the partial chain produces results as expected
+|--| if not then the problem is somewhere above,
+if so the problem manifests itself somewhere further down the chain.
 Rinse and repeat, until the step producing unexpected results is found.
 
 

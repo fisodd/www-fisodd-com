@@ -65,18 +65,18 @@ and the system was effective.
 
 The question for my school was what to do with this thing? 
 Our math teacher got us all to go through the steps
-to display crude sinewaves and other geometric shapes,
-and work through other extensions of our "new math" curriculum.
-But for us kids, the answer was obvious: *games!*
+to display geometric shapes and crude sinewaves,
+and many of us worked through other extensions of our "new math" curriculum.
+But for us kids, the real answer was obvious: *games!*
 The system came with a few cassette tapes including some BASIC games,
 and those were very popular.
 My first taste of the power of programming was when
 I hacked together something that could overwrite text on the screen
-which quickly evolved into a game with several animated "horses"
+which quickly evolved into a small game with several animated "horses"
 (actually character strings using marks
 such as an apostrophe for the head and slashes for the legs)
 running races across the screen |--|
-and promptly got banned during school hours
+which promptly got banned during school hours
 because the game was distracting too many students during class times.
 
 A few years later my upscale high-school was gifted a PDP-11 minicomputer,
@@ -242,7 +242,7 @@ that were reshaping computing.  The first battle that attracted me to HP
 was the RISC-vs-CISC design argument,
 and HP's PA-RISC proved to be every bit as interesting as I had hoped,
 especially the out-of-order execution capabilities
-which echoed a few of the DataFlow architecture ideas my advisor had
+which echoed a few of the DataFlow architecture ideas my thesis advisor had
 been championing.
 
 But soon I found myself involved in the arena of competitive performance
@@ -258,18 +258,18 @@ deliver features that our customers were willing to pay extra to have right now.
 
    Our work in the performance teams was dependent upon the depth
    of our relationships across many facets of product development.
-   It was not uncommon for a day to start at one end with
-   a debate about optimal cache organizations, followed by debugging
-   copy-avoidance changes, before sitting down to find budget 
-   to purchase another hundred systems to expand our load generators,
-   ahead of an evening presentation regarding
-   how much to rewrite the advertising plans because of recent performance
-   breakthroughs
-   |--| a very tight loop between the technical details of implementation
+   It was not uncommon for one day to run through many different issues,
+   such as a morning debate about tweaking cache organizations,
+   followed by debugging new copy-avoidance kernel features,
+   before sitting down to rework budgets
+   to purchase another hundred systems to expand our test infrastructure,
+   ahead of an evening presentation regarding how much
+   to rewrite the advertising plans because of recent performance breakthroughs
+   |--| a very tight loop between the nitty-gritty details of implementation
    and the realities of what were the differences that customers would pay for.
    The range of materials in these sessions was mind-stretching,
-   but the ability to witness both cause and effect across a large business
-   was inspiring.
+   but it was powerfully inspiring to witness both cause and effect
+   across a billion-dollar business.
 
 By the time the
 `"dot com bubble" <https://en.wikipedia.org/wiki/Dot-com_bubble>`__
@@ -296,11 +296,11 @@ Efficiency Rules
 Once the "dot com" bubble burst, the industry's attention shifted
 from hyping claims of 'biggest' and 'best' over to managing costs
 and improving efficiency.
-And here again I ended up with a front-row seat to the next big transformation,
+And here again I lucked into a front-row seat to the next big transformation,
 this time helping commodity servers (high volume, low cost, x86-based
 servers) showcase their value proposition versus the existing minicomputers.
-Where we had been proving standard Unix could overtake the proprietary systems,
-now now our challenge was showing that Linux and Microsoft's Windows Server
+Where I had been proving standard Unix could overtake the proprietary systems,
+now now the challenge was showing that Linux and Microsoft's Windows Server
 were just as capable and a whole lot cheaper |--| matching the performance
 results was relatively easy, the harder task was stripping marketing claims
 down to bare facts and then reassembling a clearer picture of the real costs.
@@ -378,12 +378,12 @@ advice in spite of pressure to just ride the current trends.
 Management may not immediately appreciate the push-back, but executive
 decisions will only be as good as the information available at the time,
 and if key people are afraid to speak up
-then these decisions will be made in an information vacuum.
+then the important decisions will be made in an information vacuum.
 
 To be successful in these situations takes a lot of preparation,
 and often a bit of good fortune,
 but all these situations start with a willingness to stand up
 and draw attention to some well founded data
-that reveals what others may not want but that all do need to see.
+that reveals something that we all do need to see.
 
 .. |--| unicode::  U+2013  .. en dash
